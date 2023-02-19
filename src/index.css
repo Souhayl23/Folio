@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .tiktak-h1 {
+        @apply text-4xl md:text-5xl font-black ;
+    }
+
+    .tiktak-h2 {
+        @apply text-2xl font-bold md:text-3xl lg:text-4xl ;
+    }
+
+    .tiktak-text {
+        @apply text-base lg:text-lg ;
+    }
+
+        /*
+        Boutons
+        */
+
+    .tiktak-button-fill {
+        @apply text-base w-fit md:text-lg font-bold px-4 py-2 flex flex-row gap-3 justify-center items-center rounded-md;
+    }
+
+    .tiktak-button-border {
+        @apply text-base w-fit md:text-lg font-bold px-4 py-2 flex flex-row gap-3 border-2 justify-center items-center rounded-md ;
+    }
+
+    /*
+    Autres
+    */
+
+
+    .tiktak-input {
+        @apply  my-2 tiktak-text w-11/12 md:max-w-3xl rounded-md border-2 border-white bg-black p-2 focus-visible:ring-2 focus-visible:ring-gold-normal light:bg-opacity-5;
+    }
+    .tiktak-label {
+        @apply my-2 text-lg font-bold  ;
+    }
+
+    /* Pour l'icon calendrier de l'input type=date (darkmode)*/
+    ::-webkit-calendar-picker-indicator {
+        @apply dark:invert;
+    }
+
+}
+
+@font-face {
+    font-family: 'ArsenicaRegular';
+    src: url("../fonts/ArsenicaTrial-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'ArsenicaDemi';
+    src: url("../fonts/ArsenicaTrial-Demibold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'ArsenicaLI';
+    src: url("../fonts/ArsenicaTrial-LightItalic.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'ClashRegu';
+    src: url("../fonts/ClashDisplay-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'ClashMed';
+    src: url("../fonts/ClashDisplay-Medium.ttf") format('truetype');
+}
