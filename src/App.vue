@@ -7,20 +7,63 @@ import { RouterLink, RouterView } from "vue-router";
 import Menu from "@/components/MenuLogo.vue";
 import MenuOuvert from "./components/MenuOuvert.vue";
 import { ref } from "@vue/reactivity";
+
 let menuOuvert = ref();
 menuOuvert.value = false;
+
+document.addEventListener('DOMContentLoaded', () => {
+  const cursor = document.querySelector('.cursor') as HTMLElement;
+  const radius = cursor.offsetHeight / 2;
+  
+  // Déplace le curseur
+  document.addEventListener('mousemove', (e: MouseEvent) => {
+    let top = e.clientY - radius,
+    left = e.clientX - radius;
+    cursor.setAttribute("style", `top: ${top}px; left: ${left}px;`);
+  });
+  
+  // Agrandit le curseur au survol d'un élément cliquable
+  const clickableElements = document.querySelectorAll(".clickable");
+  for (let i = 0; i < clickableElements.length; i++) {
+    clickableElements[i].addEventListener("mouseover", () => {
+      cursor.classList.add("hover");
+    });
+    clickableElements[i].addEventListener("mouseout", () => {
+      cursor.classList.remove("hover");
+    });
+  }
+  
+  // Réduit le curseur après un clic
+  document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+      cursor.classList.remove("expand");
+    }, 500);
+  });
+});
+
+
+
+
+
+
+
+
 </script>
 
 <template class="scroll-smooth">
+  <div class="cursor hidden md:flex"></div>
+  <div className="noise"></div>
   <header class="flex fixed mb-40 justify-between px-7 md:px-20 items-center h-32 w-full z-[20] top-0">
     <!--Logo du header-->
-    <RouterLink to="/accueil">
+    <RouterLink to="/" class="clickable">
       <img src="../public/images/Logo S.svg"  />
        
     </RouterLink>
 
     <!--Bouton pour afficher menu-->
-    <button class="relative  w-fit" aria-controls="menu" :aria-expanded="menuOuvert"
+    <button class="clickable relative  w-fit" aria-controls="menu" :aria-expanded="menuOuvert"
       @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']">
       <Menu />
 
@@ -30,7 +73,7 @@ menuOuvert.value = false;
 
 
     <!--Menu hamburger déroulé-->
-    <div class="menu-container fixed inset-0 translate-x-full motion-safe:transition-transform motion-safe:duration-1000 z-[60]"
+    <div class=" menu-container fixed inset-0 translate-x-full motion-safe:transition-transform motion-safe:duration-1000 z-[60]"
       :class="[' bg-[#2300FB]  ', menuOuvert ? 'translate-x-0' : '']">
       <div class="flex justify-between md:px-20 px-7 items-center h-36 w-full">
         <RouterLink to="/accueil">
@@ -38,47 +81,51 @@ menuOuvert.value = false;
         </RouterLink>
 
         <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']">
-          <button aria-controls="menu" :aria-expanded="menuOuvert" class="h-fit w-fit">
-            <MenuOuvert class="animate-pulse" />
+          <button aria-controls="menu" :aria-expanded="menuOuvert" class=" clickable h-fit w-fit">
+            <MenuOuvert />
           </button>
         </div>
       </div>
       <div class="menu-items">
         <div class="menu-items-container">
-        <RouterLink to="/">
+        <RouterLink class="clickable" to="/">
           <span>
-          <div class="menu-item">
+          <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="clickable menu-item">
               <div class="menu-item-number">01</div>
               <div class="menu-item-name">Home</div>
               <div class="menu-item-sub hidden sm:flex">Briefly about the main thing</div>
               <div class="menu-item-icon">
-                <ion-icon name="arrow-up-outline"></ion-icon>
+                <img src="../public/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
               </div>
             </div>
           </span>
           <div class="line"></div>
         </RouterLink>
-        <RouterLink to="/">
+
+            <RouterLink class="clickable" to="/contact">
           <span>
-            <div class="menu-item">
+            <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="menu-item">
               <div class="menu-item-number">02</div>
-              <div class="menu-item-name">About</div>
+              <div  class="menu-item-name">About</div>
               <div class="menu-item-sub hidden sm:flex">Let's get to know each other</div>
               <div class="menu-item-icon">
-                <ion-icon name="arrow-up-outline"></ion-icon>
+                <img src="../public/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
               </div>
             </div>
           </span>
           <div class="line"></div>
         </RouterLink>
-        <RouterLink to="/">
+         
+       
+
+        <RouterLink class="clickable" to="/projects">
           <span>
-            <div class="menu-item">
+            <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="menu-item">
               <div class="menu-item-number">03</div>
               <div class="menu-item-name">Projects</div>
               <div class="menu-item-sub hidden sm:flex">Discover my work</div>
               <div class="menu-item-icon">
-                <ion-icon name="arrow-up-outline"></ion-icon>
+                <img src="../public/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
               </div>
             </div>
           </span>
@@ -86,14 +133,14 @@ menuOuvert.value = false;
           
             
         </RouterLink>
-        <RouterLink to="/">
+        <RouterLink class="clickable" to="contact">
           <span>
-            <div class="menu-item">
+            <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="menu-item">
               <div class="menu-item-number">04</div>
               <div class="menu-item-name">Contact</div>
               <div class="menu-item-sub hidden sm:flex">Let's look together</div>
               <div class="menu-item-icon">
-                <ion-icon name="arrow-up-outline"></ion-icon>
+                <img src="../public/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
               </div>
             </div>
           </span>
@@ -118,23 +165,30 @@ menuOuvert.value = false;
     </Suspense>
   </main>
 
-  <footer class="z-50">
-    <div class="ml-auto w-fit">
-      <a href="#top">
-        <ArrowUpCircleIcon
-          class="stroke m-4 h-10 w-10 stroke-[#faebd7] light:stroke-black"
-        />
-        <span class="sr-only">Retourner en haut de page</span>
-      </a>
-    </div>
-    <FooterView />
-  </footer>
+
 </template>
 
 <style>
-html {
+.noise::before{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  /* opacity: 1; */
+  opacity: .03;
+  z-index: 1500;
+  pointer-events: none;
+  background: url(../public/images/noise.gif);
+}
+::-webkit-scrollbar{
+  display: none;
+}
+html,body {
   overflow-x:hidden;
-
+  user-select: none;
+  cursor: none;
 }
 .menu-container {
   position: absolute;
@@ -157,7 +211,7 @@ html {
 }
 .menu-close ion-icon {
   font-size: 25px;
-  color: #faebd7;
+  color: #FFF8EF;
 }
 .menu-items {
   position: absolute;
@@ -358,4 +412,80 @@ header .menu-open ion-icon {
 span {
   overflow: hidden;
 }
+.cursor {
+ 
+  height: 20px;
+  width: 20px;
+  pointer-events: none;
+  z-index: 100;
+  position: fixed;
+  background: #1D05AE;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #1D05AE, 0 0 20px #1D05AE, 0 0 30px #1D05AE, 0 0 40px #1D05AE,
+    0 0 70px #1D05AE, 0 0 80px #1D05AE, 0 0 100px #1D05AE, 0 0 150px #1D05AE;
+}
+:hover{
+  cursor: none;
+}
+.hover{
+  height: 70px;
+  width: 70px;
+  pointer-events: none;
+  z-index: 100;
+  position: fixed;
+  background: transparent;
+  border-radius:  50%;
+  box-shadow: 0 0 10px #1D05AE, 0 0 20px #1D05AE, 0 0 30px #1D05AE, 0 0 40px #1D05AE,
+    0 0 70px #1D05AE, 0 0 80px #1D05AE, 0 0 100px #1D05AE, 0 0 150px #1D05AE;
+}
+
+.cursor::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 8px solid gray;
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid #2300FB;
+}
 </style>
+
