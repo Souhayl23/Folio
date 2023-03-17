@@ -1,156 +1,126 @@
 
+
 <script lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
+export default {
+  setup() {
+    onMounted(startAnimations);
 
+    function startAnimations() {
+      gsap.registerPlugin(ScrollTrigger);
 
-export default{
+      gsap.to(".upper-container", {
+        translateY:0,
+        skewY: 0,
+        duration:13,
+        opacity: 1,
+        scrollTrigger: {
+          trigger: ".upper-container",
+          start: "60% 100%",
+          end: "100% 10%",
+          scrub:0.5,
+          toggleActions: "restart none none none",
+        }
+      })
 
-  mounted: function(){
-    this.startAnimations();
-    window.scrollTo(0,0);
-  },
-  
-  methods: {
-    startAnimations: function(){
-    gsap.registerPlugin(ScrollTrigger);
-    
-    
+      gsap.to(".slides2", {
+        x:"10%",
+        duration:13,
+        opacity: 1,
+        scrollTrigger: {
+          trigger: ".slides2",
+          start: "top 80%",
+          end: "80% 0%",
+          scrub:0.5,
+          toggleActions: "restart none none none",
+        }
+      })
 
-    gsap.to(".upper-container", {
-      translateY:0,
-      skewY: 0,
-      duration:13,
-      opacity: 1,
-      scrollTrigger: {
-        trigger: ".upper-container",
-        start: "60% 100%",
-        end: "100% 10%",
-        scrub:0.5,
-        toggleActions: "restart none none none",
-       
-      }
-    })
-    gsap.to(".slides2", {
-      x:"10%",
-      duration:13,
-      opacity: 1,
-      scrollTrigger: {
-        trigger: ".slides2",
-        start: "top 80%",
-        end: "80% 0%",
-        scrub:0.5,
-        toggleActions: "restart none none none",
-       
-      }
-    })
-    gsap.to(".slides", {
-      x:"10%",
-      duration:40,
-      opacity: 1,
-      scrollTrigger: {
-        trigger: ".slides",
-        start: "top 90%",
-        end: "top 0%",
-        scrub:0.5,
-        toggleActions: "restart none none none",
-        markers: true,
-      }
-    })
-    gsap.to(".slides0", {
-      x:"-70%",
-      duration:13,
-      opacity: 0.5,
-      scrollTrigger: {
-        trigger: ".slides0",
-        start: "top 100%",
-        end: "top 0%",
-        scrub:1,
-        toggleActions: "restart none none none",
-      }
-    })
+      gsap.to(".slides", {
+        x:"10%",
+        duration:40,
+        opacity: 1,
+        scrollTrigger: {
+          trigger: ".slides",
+          start: "top 90%",
+          end: "top 0%",
+          scrub:0.5,
+          toggleActions: "restart none none none",
+          markers: true,
+        }
+      })
 
-gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: ".imageBoard",
-      pin: true,
-      start: "top top",
-      end: "+=300%",
-      scrub: 1,
-      markers:true,
-    },
-    defaults: {
-      ease: "none",
-    },
-  })
-  .to(
-    ".upper-container",
-    {
-      opacity:1
-    }
-  )
-  .to(
-    document.body,
-    {
-      delay: 0.3,
-      backgroundColor: "#f0f0f0",
-    },
-    "start"
-  )
-  .to(
-    ".upper-container h1",
-    {
-      scale: 5,
-    },
-    "start"
-  )
-  .to(
-    ".upper-container h1",
-    {
-      opacity: 0,
-    },
-    "start"
-  )
-  .to(
-    "#scaleableImg1",
-    {
-      scale: 10,
-      x: -850,
-    },
-    "start"
-  )
+      gsap.to(".slides0", {
+        x:"-70%",
+        duration:13,
+        opacity: 0.5,
+        scrollTrigger: {
+          trigger: ".slides0",
+          start: "top 100%",
+          end: "top 0%",
+          scrub:1,
+          toggleActions: "restart none none none",
+        }
+      })
 
+      gsap.timeline({
+        scrollTrigger: {
+          trigger: ".imageBoard",
+          pin: true,
+          start: "top top",
+          end: "+=300%",
+          scrub: 1,
+          markers:true,
+        },
+        defaults: {
+          ease: "none",
+        },
+      })
+      .to(".upper-container", {
+        opacity:1
+      })
+      .to(document.body, {
+        delay: 0.3,
+        backgroundColor: "#f0f0f0",
+      }, "start")
+      .to(".upper-container h1", {
+        scale: 5,
+      }, "start")
+      .to(".upper-container h1", {
+        opacity: 0,
+      }, "start")
+      .to("#scaleableImg1", {
+        scale: 10,
+        x: -850,
+      }, "start")
+      .to(".cardImage", {
+        delay: 0.1,
+        opacity: 1,
+      }, "start")
+      .to(".scaleableImg", {
+        opacity: 0,
+      });
 
-  .to(
-    ".cardImage",
-    {
-      delay: 0.1,
-      opacity: 1,
-    },
-    "start"
-  )
-  .to(".scaleableImg", {
-    opacity: 0,
-  });
-  
-
-
-
-      
       gsap.to('#title', {duration: 10, color: "red"});
+
       const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
+      tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 })
 
-tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
-tl.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
-tl.to(".intro", { y: "-100%", duration: 1 }, "-=1");
+        .to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 })
+        .to(".intro", { y: "-100%", duration: 1 }, "-=1");
 tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1, stagger: 0.25 });
 tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
+      // Your animation code here
     }
+
+    return {
+      startAnimations
+    };
   }
 }
 

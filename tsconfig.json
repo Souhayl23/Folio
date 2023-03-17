@@ -15,12 +15,14 @@
     "types": [
       "vite/client",
       "vite-plugin-pages/client"
+      
     ]
   },
   
   "references": [
     {
       "path": "./tsconfig.config.json"
+      
     }
   ]
 }
