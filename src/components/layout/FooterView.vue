@@ -8,7 +8,7 @@
     class="flex h-fit w-full flex-col items-center justify-between gap-5 border-t-2 border-white bg-black p-8 pb-20 md:flex-row"
   >
     <div class="flex flex-col gap-5 p-4">
-      <img src="../../../public/images/Logo S.svg" class="h-fit w-48 fill-white" />
+      <img src="../../../public/images/LogoS.svg" class="h-fit w-48 fill-white" />
       <span class="sr-only">Logo site</span>
       <p class="text-xs text-white">Souhayl</p>
     </div>

@@ -21,7 +21,7 @@ const menuState = ref(true);
   </div>
   <div class="h-fit flex ml-4 md:ml-[160px] box-align:center">
     <RouterLink class="" to="/">
-      <img src="../../../public/images/Logo S.svg" class="h-fit w-8 md:w-12 place-content-center " />
+      <img src="../../../public/images/LogoS.svg" class="h-fit w-8 md:w-12 place-content-center " />
       <span class="sr-only">Logo du site Portfolio</span>
     </RouterLink>
   </div>
