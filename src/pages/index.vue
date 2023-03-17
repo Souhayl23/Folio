@@ -3,7 +3,7 @@
 import { ref, onMounted } from 'vue'
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import HeroView from '@/components/general/HeroView.vue';
+
 
 
 export default{

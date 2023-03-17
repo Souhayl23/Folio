@@ -1,8 +1,6 @@
 <script setup lang="ts">
 
-import HeaderView from "@/components/layout/HeaderView.vue";
-// @ts-ignore
-import FooterView from "@/components/layout/FooterView.vue";
+
 import { RouterLink, RouterView } from "vue-router";
 import Menu from "@/components/MenuLogo.vue";
 import MenuOuvert from "./components/MenuOuvert.vue";
