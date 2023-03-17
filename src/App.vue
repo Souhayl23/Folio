@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <header class="flex fixed mb-40 justify-between px-7 md:px-20 items-center h-32 w-full z-[20] top-0">
     <!--Logo du header-->
     <RouterLink to="/" class="clickable">
-      <img src="../public/images/LogoS.svg"  />
+      <img src="./assets/images/LogoS.svg"  />
        
     </RouterLink>
 
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="menu-item-name">Home</div>
               <div class="menu-item-sub hidden sm:flex">Briefly about the main thing</div>
               <div class="menu-item-icon">
-                <img src="../public/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
+                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
               </div>
             </div>
           </span>
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div  class="menu-item-name">About</div>
               <div class="menu-item-sub hidden sm:flex">Let's get to know each other</div>
               <div class="menu-item-icon">
-                <img src="../public/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
+                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
               </div>
             </div>
           </span>
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="menu-item-name">Projects</div>
               <div class="menu-item-sub hidden sm:flex">Discover my work</div>
               <div class="menu-item-icon">
-                <img src="../public/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
+                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
               </div>
             </div>
           </span>
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="menu-item-name">Contact</div>
               <div class="menu-item-sub hidden sm:flex">Let's look together</div>
               <div class="menu-item-icon">
-                <img src="../public/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
+                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
               </div>
             </div>
           </span>

@@ -97,17 +97,17 @@ body{
   background-size: cover;
 }
 .img1{
-  background-image: url(../../public/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
 }
 .img2{
-  background-image: url(../../public/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
 }
 .img3{
-  background-image: url(../../public/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
 }
 .img4{
-  background-image: url(../../public/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
 }
 .img5{
-  background-image: url(../../public/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
 }</style>

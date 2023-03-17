@@ -188,9 +188,9 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
   >
   <div  class="w-[499px] big-text2 clickable h-[285px] mt-[118px] mr-[300px] relative z-10">
 
-    <img src="../../public/images/Round.svg" class="w-[10%] rotate z-10 ">
+    <img src="../assets/images/Round.svg" class="w-[10%] rotate z-10 ">
  
-  <img src="../../public/images/Etoile.svg" class="rotate2">
+  <img src="../assets/images/Etoile.svg" class="rotate2">
   <h1 class="absolute hidden md:flex left-0 top-0 text-[100px] vw text-center text-[#2300FB]">SOUHAYL</h1>
   <h1 class="absolute hidden sm:flex md:hidden left-[54px] top-0 text-[80px] vw text-center text-[#2300FB]">SOUHAYL</h1>
   <div>
@@ -220,12 +220,12 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 
     <img 
-      src="../../public/images/Homme.svg"
+      src="../assets/images/Homme.svg"
       alt="Exemples de montres"
       class="m-auto big-text hidden md:flex absolute "
     />    
     <img
-      src="../../public/images/Homme.svg"
+      src="../assets/images/Homme.svg"
       alt="Exemples de montres"
       class="m-auto h-fit  w-[650px] big-text left-8 hidden sm:flex md:hidden absolute "
     /> 
@@ -252,7 +252,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
   <img
   
-      src="/images/HommeMiniM.svg"
+      src="../assets/images/HommeMiniM.svg"
       alt="Illustration Cyborg Noir"
       class="m-auto h-fit    left-3 sm:hidden top-24 absolute "
     />
@@ -285,14 +285,14 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 									</div>
 								    
     <div class="upper-container  flex mt-28 sm:mt-0 ">
-      <img src="../../public/images/Trois.svg" class="sm:flex  hidden md:ml-20 lg:ml-48 lg:-mr-44"/>
+      <img src="../assets/images/Trois.svg" class="sm:flex  hidden md:ml-20 lg:ml-48 lg:-mr-44"/>
       <div>
       <span class="text-[#2300FB] px-7 lg:px-[200px]" >(ABOUT ME)</span>
       <h1 class="text-[#FFF8EF]  px-7 lg:px-[200px]">
         My name is Souhayl Sedira.<br>
         I like to work on projects in the field of graphic design and front integration.<br>
         <RouterLink to="/contact" class="clickable underline  hover:text-[#2300FB]">Contact me</RouterLink> for more information.
-</h1><img src="../../public/images/Trois.svg" class="sm:hidden w-[70vw] mt-[10vw] ml-[15vw] flex justify-center items-center "/></div>
+</h1><img src="../assets/images/Trois.svg" class="sm:hidden w-[70vw] mt-[10vw] ml-[15vw] flex justify-center items-center "/></div>
     </div>    
   </section>
   <section>
@@ -306,7 +306,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 							<nav class="menu">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ TikTak</a>
-									<img class="menu__item-img" src="../../public/images/projet/TIKTAKMINISVG.svg" />
+									<img class="menu__item-img" src="../assets/images/projet/TIKTAKMINISVG.svg" />
 									<div class="marquee">
 										<div class="marquee__inner ">
 											<span>TikTak</span>
@@ -320,7 +320,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 								<div class="divider"></div>
                 <div class="menu__item">
 									<a class="menu__item-link clickable">/ National Geographic.</a>
-									<img class="menu__item-img" src="../../public/images/projet/Nationmini.svg" />
+									<img class="menu__item-img" src="../assets/images/projet/Nationmini.svg" />
 									<div class="marquee">
 										<div class="marquee__inner" aria-hidden="true">
 											<span>National Geographic.</span>
@@ -334,7 +334,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ Streamer Goal</a>
-									<img class="menu__item-img" src="../../public/images/projet/STREAMERMINISVG.svg" />
+									<img class="menu__item-img" src="../assets/images/projet/STREAMERMINISVG.svg" />
 									<div class="marquee">
 										<div class="marquee__inner">
 											<span>Streamer Goal</span>
@@ -349,7 +349,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ Parole d'une femme</a>
-									<img class="menu__item-img" src="../../public/images/projet/PAROLEMINI.png" />
+									<img class="menu__item-img" src="../assets/images/projet/PAROLEMINI.png" />
 									<div class="marquee">
 										<div class="marquee__inner">
 											<span>Parole d'une femme</span>
@@ -364,7 +364,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ Sportgether</a>
-									<img class="menu__item-img" src="../../public/images/projet/SPORTSMINI.png" />
+									<img class="menu__item-img" src="../assets/images/projet/SPORTSMINI.png" />
 									<div class="marquee">
 										<div class="marquee__inner">
 											<span>Sportgether</span>

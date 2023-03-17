@@ -66,7 +66,7 @@ export default {
         <button type="submit">
           <a>Submit</a></button>
           <button type="submit"> <div class="send-icon">
-         <img src="../../public/images/arrowmenu.svg"/>
+         <img src="../assets/images/arrowmenu.svg"/>
         </div></button>
       </div>
     </div>
@@ -120,7 +120,7 @@ export default {
         <button type="submit" >
           <a>Submit</a></button>
           <button type="submit"> <div class="send-icon clickable">
-         <img src="../../public/images/arrowmenu.svg"/>
+         <img src="../assets/images/arrowmenu.svg"/>
         </div></button>
       </div>
     </div>
