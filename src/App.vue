@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <header class="flex fixed mb-40 justify-between px-7 md:px-20 items-center h-32 w-full z-[20] top-0">
     <!--Logo du header-->
     <RouterLink to="/" class="clickable">
-      <img src="../public/images/Logo S.svg"  />
+      <img src="../public/images/LogoS.svg"  />
        
     </RouterLink>
 

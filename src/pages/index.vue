@@ -275,7 +275,15 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
   <section id="about" >
   
 
-    
+    <div class="marquee">
+										<div class="marquee__inner2" >
+											<span>National Geographic.</span>
+											<span>National Geographic.</span>
+											<span>National Geographic.</span>
+											<span>National Geographic.</span>
+										</div>
+									</div>
+								    
     <div class="upper-container  flex mt-28 sm:mt-0 ">
       <img src="../../public/images/Trois.svg" class="sm:flex  hidden md:ml-20 lg:ml-48 lg:-mr-44"/>
       <div>
@@ -294,7 +302,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 				<section class="project">
 					<div class="project-container">
-						<div>
+						<div><RouterLink to="/projects">
 							<nav class="menu">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ TikTak</a>
@@ -370,7 +378,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 								<div class="divider"></div>
 
 
-							</nav>
+							</nav></RouterLink>
 						</div>
 					</div>
 				</section>
@@ -516,7 +524,27 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 	transition: opacity 0.1s;
 	padding: 1vw 0;
 }
+.marquee__inner2 {
 
+width: fit-content;
+height: 300px;
+
+display: flex;
+position: relative;
+-webkit-animation: marquee 5s linear infinite;
+animation: marquee 5s linear infinite;
+-webkit-animation-play-state: paused;
+animation-play-state: paused;
+
+padding: 1vw 0;
+}
+ .marquee .marquee__inner2 {
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+	opacity: 1;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
 .menu__item-link:hover ~ .marquee .marquee__inner {
 	-webkit-animation-play-state: running;
 	animation-play-state: running;
