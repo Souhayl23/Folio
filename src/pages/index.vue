@@ -49,7 +49,7 @@ export default {
           end: "top 0%",
           scrub:0.5,
           toggleActions: "restart none none none",
-          markers: true,
+          
         }
       })
 
