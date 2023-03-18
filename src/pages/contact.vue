@@ -116,7 +116,7 @@ export default {
       <div class="row">
         <textarea type="text" name="message" id="message"  placeholder="Message" cols="30" rows="5"></textarea>
       </div>
-      <div class="row submit clickable">
+      <div class="row2 submit clickable">
         <button type="submit" >
           <a>Submit</a></button>
           <button type="submit"> <div class="send-icon clickable">
@@ -247,10 +247,15 @@ input {
   font-family: "ClashRegu";
   margin-bottom: 0.4em;
 }
-
 .row {
   display: flex;
   margin: 2em 0 !important;
+  
+}
+.row2 {
+  display: flex;
+  margin: 2em 0 !important;
+  padding-top: 2em;
 }
 
 .submit {
