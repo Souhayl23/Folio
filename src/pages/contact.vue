@@ -150,10 +150,10 @@ html, body {
   font-family: 'ArsenicaDemi';;
   
   color: #2300FB;
-  font-size: 8em;
+  font-size: 4em;
   text-transform: uppercase;
   display: inline-block;
-  padding: 55px;
+  padding: 6vw;
   padding-left: -10%;
   animation: marquee-animation 80s linear infinite;
 }

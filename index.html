@@ -17,8 +17,24 @@
 
     <meta name="description" content="TiK·TaK - personnalisation de montres connectées.">
   </head>
+  <div class="noise"></div>
   <body class="tiktak-text bg-[#0F0F0F] ">
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
  </body>
 </html>
+<style>
+.noise::before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    content: "";
+   
+    opacity: 0.02;  
+    z-index: 2;
+    pointer-events: none;
+    background: url(src/assets/images/noise.gif) ;
+}
+</style>

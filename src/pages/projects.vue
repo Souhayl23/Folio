@@ -58,7 +58,7 @@ body{
   width: 500%;
   overflow: hidden;
   left: 0;
-  animation: 30s animate infinite;
+  animation: 25s animate infinite;
 }
 @keyframes animate {
   0%{

@@ -167,19 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </template>
 
 <style>
-.noise::before{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  content: "";
-  /* opacity: 1; */
-  opacity: .03;
-  z-index: 1500;
-  pointer-events: none;
-  background: url(../public/images/noise.gif);
-}
+
 ::-webkit-scrollbar{
   display: none;
 }

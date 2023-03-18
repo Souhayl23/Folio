@@ -10,101 +10,7 @@ export default {
     onMounted(startAnimations);
 
     function startAnimations() {
-      gsap.registerPlugin(ScrollTrigger);
-
-      gsap.to(".upper-container", {
-        translateY:0,
-        skewY: 0,
-        duration:13,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: ".upper-container",
-          start: "60% 100%",
-          end: "100% 10%",
-          scrub:0.5,
-          toggleActions: "restart none none none",
-        }
-      })
-
-      gsap.to(".slides2", {
-        x:"10%",
-        duration:13,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: ".slides2",
-          start: "top 80%",
-          end: "80% 0%",
-          scrub:0.5,
-          toggleActions: "restart none none none",
-        }
-      })
-
-      gsap.to(".slides", {
-        x:"10%",
-        duration:40,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: ".slides",
-          start: "top 90%",
-          end: "top 0%",
-          scrub:0.5,
-          toggleActions: "restart none none none",
-          
-        }
-      })
-
-      gsap.to(".slides0", {
-        x:"-70%",
-        duration:13,
-        opacity: 0.5,
-        scrollTrigger: {
-          trigger: ".slides0",
-          start: "top 100%",
-          end: "top 0%",
-          scrub:1,
-          toggleActions: "restart none none none",
-        }
-      })
-
-      gsap.timeline({
-        scrollTrigger: {
-          trigger: ".imageBoard",
-          pin: true,
-          start: "top top",
-          end: "+=300%",
-          scrub: 1,
-          markers:true,
-        },
-        defaults: {
-          ease: "none",
-        },
-      })
-      .to(".upper-container", {
-        opacity:1
-      })
-      .to(document.body, {
-        delay: 0.3,
-        backgroundColor: "#f0f0f0",
-      }, "start")
-      .to(".upper-container h1", {
-        scale: 5,
-      }, "start")
-      .to(".upper-container h1", {
-        opacity: 0,
-      }, "start")
-      .to("#scaleableImg1", {
-        scale: 10,
-        x: -850,
-      }, "start")
-      .to(".cardImage", {
-        delay: 0.1,
-        opacity: 1,
-      }, "start")
-      .to(".scaleableImg", {
-        opacity: 0,
-      });
-
-      gsap.to('#title', {duration: 10, color: "red"});
+     
 
       const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
@@ -149,7 +55,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
  <!--Contenu de la page accueil-->
  
-  <section class=" flex md:mt-20 flex-col mb-[-900px] gap-20">
+  <section class=" flex md:mt-20 flex-col mb-[-900px] gap-20 overflow-y-hidden">
     <!--Hero page accueil-->
     <div class="md:-m-8 p-2  md:p-6" >
      <!--HERO-->
@@ -245,16 +151,8 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
   <section id="about" >
   
 
-    <div class="marquee">
-										<div class="marquee__inner2" >
-											<span>National Geographic.</span>
-											<span>National Geographic.</span>
-											<span>National Geographic.</span>
-											<span>National Geographic.</span>
-										</div>
-									</div>
-								    
-    <div class="upper-container  flex mt-28 sm:mt-0 ">
+							    
+    <div class="upper-container  flex mt-56 sm:-mt-20 ">
       <img src="../assets/images/Trois.svg" class="sm:flex  hidden md:ml-20 lg:ml-48 lg:-mr-44"/>
       <div>
       <span class="text-[#2300FB] px-7 lg:px-[200px]" >(ABOUT ME)</span>
@@ -265,9 +163,14 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 </h1><img src="../assets/images/Trois.svg" class="sm:hidden w-[70vw] mt-[10vw] ml-[15vw] flex justify-center items-center "/></div>
     </div>    
   </section>
-  <section>
- <div class="cardImage mt-96 text-[11vw]">MY PROJECTS</div>
-
+  
+ <div class="marqueep">    <span>
+      my projects  /my projects / my projects / my projects / my projects /
+      my projects / my projects / my projects / my projects / my projects /
+      my projects / my projects / my projects /
+    </span></div>
+    <img src="../assets/images/New.svg" class="my-[4vw]" >
+<section>
  <div>
 
 				<section class="project">
@@ -364,6 +267,42 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 
 <style scoped>
+html, body {
+  width: 100%;
+  height: 100%;
+  color: #e0e0e0;
+
+}
+.marqueep {
+  width: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-top: 2em;
+}
+
+.marqueep span {
+  font-family: 'ArsenicaDemi';;
+  
+  color: #2300FB;
+  font-size: 6em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6vw;
+  padding-left: -10%;
+  animation: marqueep-animation 80s linear infinite;
+}
+
+@keyframes marqueep-animation {
+  0% {
+    transform:translate(0, 0);
+  
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
 .marquee2 {
   width:100%;
   margin: 0 auto;
@@ -396,7 +335,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 .divider {
 	width: 100%;
 	height: 2px;
-	background: #0F0F0F;
+	background: #e0e0e0;
 }
 
 
@@ -413,7 +352,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 	display: inline-block;
 	cursor: pointer;
 	position: relative;
-	color: #0F0F0F;
+	color: #e0e0e0;
 	-webkit-transition: opacity 0.4s;
 	transition: opacity 0.4s;
 	font-family: "ArsenicaDemi";
@@ -697,7 +636,7 @@ padding: 1vw 0;
 
 
 .upper-container {
-  opacity: 0;
+  
   transform: translateY(-30%);
   transform: skewY(90%);
 }
@@ -717,8 +656,8 @@ padding: 1vw 0;
 
 
 .cardImage {
-  opacity: 0;
-  height: 50vw;
+ 
+  
 }
 
 
@@ -747,28 +686,10 @@ padding: 1vw 0;
 
 }
 
-.cardImage {
-  width: 100%;
-  height: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(#2300FB,#05ae65);
-background-clip: border-box;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-  font-weight: bold;
-  
-  font-family: 'ArsenicaDemi'
-  
-}
 
 
-html {
-  box-sizing: content-box;
-  margin: 0;
-  padding: 0;
-}
+
+
 
 
 p { font-family: 'ClashRegu';
