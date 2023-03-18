@@ -255,7 +255,7 @@ input {
 .row2 {
   display: flex;
   margin: 2em 0 !important;
-  padding-top: 2em;
+ 
 }
 
 .submit {
@@ -267,7 +267,7 @@ input {
   text-decoration: none;
   color: #2300FB;
   font-family: 'ArsenicaLi' ;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
 }
