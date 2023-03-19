@@ -65,7 +65,7 @@ export default {
       </div>
       <div class="row submit">
         <button type="submit">
-          <a class="min-w-[125px] min-h-[50px]">Submit</a></button>
+          <a >Submit </a></button>
           <button type="submit"> <div class="send-icon">
          <img src="../assets/images/arrowmenu.svg"/>
         </div></button>
@@ -119,7 +119,7 @@ export default {
       </div>
       <div class="row2 submit clickable">
         <button type="submit" >
-          <a >Submit</a></button>
+          <a class="min-w-[125px] min-h-[50px]">Submit .</a></button>
           <button type="submit"> <div class="send-icon clickable">
          <img src="../assets/images/arrowmenu.svg"/>
         </div></button>
