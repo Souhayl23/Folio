@@ -178,12 +178,12 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
     </div>    
   </section>
 
- <div class="marqueep">    <span>
+ <div class="marqueep ">    <span>
       my projects  /my projects / my projects / my projects / my projects /
       my projects / my projects / my projects / my projects / my projects /
       my projects / my projects / my projects /
     </span></div>
-    <img src="../assets/images/New.svg" class="my-[8vw] scale-150 md:scale-100" >
+    <img src="../assets/images/New.svg" class="md:my-[8vw] my-[20vw] scale-150 md:scale-100" >
 <section>
  <div>
 
