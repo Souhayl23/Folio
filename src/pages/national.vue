@@ -48,7 +48,7 @@ The site allows you to customise your own watch with a range of colours provided
 <RouterLink to="/projects">
 <a
       href="#top"
-      class="fixed bottom-20 right-[5vw] z-10 flex h-16 w-20 items-center justify-center bg-[#2300FB] text-xl font-['ArsenicaLi'] text-white opacity-50 transition-all hover:h-16 hover:w-24 hover:opacity-100"
+      class="fixed bottom-20 right-[5vw] z-20 flex h-16 w-20 items-center justify-center bg-[#2300FB] text-xl font-['ArsenicaLi'] text-white opacity-50 transition-all hover:h-16 hover:w-24 hover:opacity-100"
       ><h2> Back ↞</h2></a></RouterLink>
 </template>
 

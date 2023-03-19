@@ -7,7 +7,11 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 
 export default {
   setup() {
-    onMounted(startAnimations);
+    onMounted(startAnimations); 
+    {
+    window.scrollTo(0,0)
+  };
+    
 
     function startAnimations() {
      
@@ -144,27 +148,28 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
    
     
    </section> 
-   <a href="#sec-2" class="scroll  sm:hidden   ">
+   <a href="#sec-2" class="scroll  sm:hidden">
       <div class="scroll-down  "></div>
     </a>
     <a href="#sec-2" class="scroll hidden sm:flex sm:bottom-[20%] md:bottom-[10%] lg:bottom-[-1%] ">
       <div class="scroll-down  "></div>
     </a>
+
   <section id="about" >
   
-
+    
 							    
     <div class="upper-container  flex mt-56 sm:-mt-20 ">
       <img src="../assets/images/Trois.svg" class="sm:flex  hidden md:ml-20 lg:ml-48 lg:-mr-44"/>
       <div>
-      <span class="text-[#2300FB] px-7 lg:px-[200px]" >(ABOUT ME)</span>
-      <h1 class="text-[#FFF8EF]  px-7 lg:px-[200px]">
+      <span class="text-[#2300FB] px-7 lg:pl-[200px]" >(ABOUT ME)</span>
+      <h3 class="text-[#FFF8EF]  px-7 lg:pl-[200px] lg:pr-[150px]">
         My name is Souhayl Sedira.<br>
         I am specialized in the field of webdesign and more precisely on UX/UI Design, the creation of website mock-ups, logos and everything related to graphic identity.
 
         <br>Besides design, I have learned to create websites, to manage social networks for a company for example but also to design from scratch a marketing strategy so that a company can have the necessary digital resources to start.<br>
         <RouterLink to="/contact" class="clickable underline  hover:text-[#2300FB]">Contact me</RouterLink> for more information.
-</h1><img src="../assets/images/Trois.svg" class="sm:hidden w-[70vw] mt-[10vw] ml-[15vw] flex justify-center items-center "/></div>
+</h3><img src="../assets/images/Trois.svg" class="sm:hidden w-[70vw] mt-[10vw] ml-[15vw] flex justify-center items-center "/></div>
     </div>    
   </section>
 
@@ -179,8 +184,9 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 				<section class="project">
 					<div class="project-container">
-						<div><RouterLink to="/tiktak">
+						<div>
 							<nav class="menu">
+                <RouterLink to="/tiktak">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ TikTak</a>
 									<img class="menu__item-img" src="../assets/images/projet/TIKTAKMINISVG.svg" />
@@ -193,8 +199,10 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 										</div>
 									</div>
 								</div>
-
+              </RouterLink>
 								<div class="divider"></div>
+
+                <RouterLink to="/national">
                 <div class="menu__item">
 									<a class="menu__item-link clickable">/ National Geographic.</a>
 									<img class="menu__item-img" src="../assets/images/projet/Nationmini.svg" />
@@ -207,8 +215,10 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 										</div>
 									</div>
 								</div>
-                <div class="divider"></div>
+              </RouterLink>
 
+                <div class="divider"></div>
+                <RouterLink to="streamer"> 
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ Streamer Goal</a>
 									<img class="menu__item-img" src="../assets/images/projet/STREAMERMINISVG.svg" />
@@ -221,6 +231,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 										</div>
 									</div>
 								</div>
+              </RouterLink>
 
 								<div class="divider"></div>
 
@@ -255,7 +266,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 								<div class="divider"></div>
 
 
-							</nav></RouterLink>
+							</nav>
 						</div>
 					</div>
 
@@ -268,8 +279,8 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
   <a
       href="#top"
-      class="fixed bottom-20 right-[5vw] z-10 flex h-14 w-14 items-center justify-center bg-[#2300FB] text-xl font-normal text-white opacity-50 transition-all hover:h-16 hover:w-16 hover:opacity-100"
-      ><h2>Top.</h2></a>
+      class="fixed scroll-smooth bottom-20 right-[5vw] z-10 flex h-16 w-20 items-center justify-center bg-[#2300FB] text-xl font-normal text-white opacity-50 transition-all hover:h-16 hover:w-24 hover:opacity-100"
+      ><h2>Top ↟</h2></a>
     
 </template>
 
@@ -652,7 +663,7 @@ padding: 1vw 0;
 
 .upper-container span {
   font-size: 20px;
-  font-family: 'ClashMed'
+  font-family: 'ArsenicaDemi'
 
 }
 

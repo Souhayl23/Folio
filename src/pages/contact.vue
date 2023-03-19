@@ -178,7 +178,7 @@ html, body {
 }
 .col2 {
   width: 100%;
-  padding: 1em 1em;
+  padding: 1em  0 1em;
 }
 
 
