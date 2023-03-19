@@ -51,7 +51,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
           <span id="text" class="text py-3">to my creative</span>
         </h2>
         <h1 id="hide" class="hide">
-          <span id="text" class="text py-3">Portfolio.</span>
+          <span id="text" class="text py-3">Website.</span>
         </h1>
       </div>
     </div>
@@ -91,10 +91,10 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
     UX/UI
   </h2>
   <p class="absolute hidden md:flex left-[42px] top-[136px] text-[15px] text-left text-[#FFF8EF]">
-    Creative Portfolio
+    Creative Website
   </p>
   <p class="absolute hidden sm:flex md:hidden left-[42px] top-[110px] text-[12px] text-left text-[#FFF8EF]">
-    Creative Portfolio
+    Creative Website
   </p>
   <h3 class="text-[15px] hidden lg:flex absolute -rotate-90 mr-3 top-[100px] right-[-550px] text-left text-[#FFF8EF]">souhayl.sedira23@gmail.com</h3>
  
@@ -126,7 +126,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
     UX/UI
   </h2>
   <p class="absolute sm:hidden z-10 top-[205px] mr-[165px] text-[9px] text-[#FFF8EF]">
-    Creative Portfolio
+    Creative Website
   </p>
 
   <h3 class="text-[15px] sm:hidden ml-[12vw] mt-[600px] z-10 text-center text-[#FFF8EF]">souhayl.sedira23@gmail.com</h3>

@@ -75,18 +75,19 @@ export default {
   </div>
   <div class="contact-section lg:hidden flex col2  ">
     <div class="contact-details2 lg:hidden ">
-      <p>Let's unlock together the next <br />
-      level of possibilities <br />
-    React out.</p>
+      <p>Let's take the next step together.<br />
+      Contact me and <br />
+    Let's work.</p>
     <div class=" social-media item2">
-      <h3 >Phone</h3>
-      <span>07 71 01 77 61</span>
+      <h3 >Get in touch</h3>
+        <span>souhayl.sedira23@gmail.com</span>
     </div>
     
     <div class=" contact-info">
       <div class="email item2">
-        <h3 >Get in touch</h3>
-        <span>souhayl.sedira23@gmail.com</span>
+        <h3 >Phone</h3>
+      <span>07 71 01 77 61</span>
+
       </div>
 
 

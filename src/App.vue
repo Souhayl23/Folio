@@ -91,9 +91,9 @@ document.addEventListener('DOMContentLoaded', () => {
           <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="clickable menu-item">
               <div class="menu-item-number hover:scale-125">01</div>
               <div class="menu-item-name hover:scale-125 ">Home</div>
-              <div class="menu-item-sub hidden sm:flex">Briefly about the main thing</div>
+              <div class="menu-item-sub hidden  sm:flex">Briefly about the main thing</div>
               <div class="menu-item-icon">
-                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
+                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex hover:scale-125" alt="arrow" />
               </div>
             </div>
           </span>
@@ -103,11 +103,11 @@ document.addEventListener('DOMContentLoaded', () => {
             <RouterLink class="clickable" to="/about" >
           <span>
             <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="menu-item">
-              <div class="menu-item-number">02</div>
-              <div  class="menu-item-name">About</div>
+              <div class="menu-item-number hover:scale-125">02</div>
+              <div  class="menu-item-name hover:scale-125">About</div>
               <div class="menu-item-sub hidden sm:flex">Let's get to know each other</div>
               <div class="menu-item-icon">
-                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
+                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex hover:scale-125" alt="arrow" />
               </div>
             </div>
           </span>
@@ -119,11 +119,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <RouterLink class="clickable" to="/projects">
           <span>
             <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="menu-item">
-              <div class="menu-item-number">03</div>
-              <div class="menu-item-name">Project</div>
+              <div class="menu-item-number hover:scale-125">03</div>
+              <div class="menu-item-name hover:scale-125">Project</div>
               <div class="menu-item-sub hidden sm:flex">Discover my work</div>
               <div class="menu-item-icon">
-                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
+                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex hover:scale-125" alt="arrow" />
               </div>
             </div>
           </span>
@@ -134,11 +134,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <RouterLink class="clickable" to="contact">
           <span>
             <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="menu-item">
-              <div class="menu-item-number">04</div>
-              <div class="menu-item-name">Contact</div>
+              <div class="menu-item-number hover:scale-125">04</div>
+              <div class="menu-item-name hover:scale-125">Contact</div>
               <div class="menu-item-sub hidden sm:flex">Let's look together</div>
               <div class="menu-item-icon">
-                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
+                <img src="./assets/images/arrowmenu.svg" class="hidden md:flex hover:scale-125" alt="arrow" />
               </div>
             </div>
           </span>
