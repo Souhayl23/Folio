@@ -30,11 +30,13 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
   }
 }
 
+
 </script>
 
 
 
 <template> 
+
 
 <div  class="intro z-100">
       <div id="intro-text" class="intro-text">
@@ -55,7 +57,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
  <!--Contenu de la page accueil-->
  
-  <section class=" flex md:mt-20 flex-col mb-[-900px] gap-20 overflow-y-hidden">
+  <section id="top" class=" flex md:mt-20 flex-col mb-[-900px] gap-20 overflow-y-hidden">
     <!--Hero page accueil-->
     <div class="md:-m-8 p-2  md:p-6" >
      <!--HERO-->
@@ -158,12 +160,14 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
       <span class="text-[#2300FB] px-7 lg:px-[200px]" >(ABOUT ME)</span>
       <h1 class="text-[#FFF8EF]  px-7 lg:px-[200px]">
         My name is Souhayl Sedira.<br>
-        I like to work on projects in the field of graphic design and front integration.<br>
+        I am specialized in the field of webdesign and more precisely on UX/UI Design, the creation of website mock-ups, logos and everything related to graphic identity.
+
+        <br>Besides design, I have learned to create websites, to manage social networks for a company for example but also to design from scratch a marketing strategy so that a company can have the necessary digital resources to start.<br>
         <RouterLink to="/contact" class="clickable underline  hover:text-[#2300FB]">Contact me</RouterLink> for more information.
 </h1><img src="../assets/images/Trois.svg" class="sm:hidden w-[70vw] mt-[10vw] ml-[15vw] flex justify-center items-center "/></div>
     </div>    
   </section>
-  
+
  <div class="marqueep">    <span>
       my projects  /my projects / my projects / my projects / my projects /
       my projects / my projects / my projects / my projects / my projects /
@@ -175,7 +179,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 				<section class="project">
 					<div class="project-container">
-						<div><RouterLink to="/projects">
+						<div><RouterLink to="/tiktak">
 							<nav class="menu">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ TikTak</a>
@@ -254,6 +258,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 							</nav></RouterLink>
 						</div>
 					</div>
+
 				</section>
 
 
@@ -261,7 +266,10 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
         </div>
 </section> 
 
-
+  <a
+      href="#top"
+      class="fixed bottom-20 right-[5vw] z-10 flex h-14 w-14 items-center justify-center bg-[#2300FB] text-xl font-normal text-white opacity-50 transition-all hover:h-16 hover:w-16 hover:opacity-100"
+      ><h2>Top.</h2></a>
     
 </template>
 
@@ -649,7 +657,7 @@ padding: 1vw 0;
 }
 
 .upper-container h1 {
-  font-size: 30px;
+  
   line-height: 1;
 }
 

@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="line"></div>
         </RouterLink>
 
-            <RouterLink class="clickable" to="/contact">
+            <RouterLink class="clickable" to="/" href="#about">
           <span>
             <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="menu-item">
               <div class="menu-item-number">02</div>
