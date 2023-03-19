@@ -130,7 +130,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
   
       src="../assets/images/HommeMiniM.svg"
       alt="Illustration Cyborg Noir"
-      class=" h-fit -mt-32   left-3 sm:hidden  absolute "
+      class=" h-fit -mt-32 -ml-2 sm:hidden  absolute "
     />
     <div>
 </div>
