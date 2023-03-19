@@ -7,6 +7,7 @@ export default {
     window.scrollTo(0,0)
   }
 }
+
 </script>
 
 
@@ -64,7 +65,7 @@ export default {
       </div>
       <div class="row submit">
         <button type="submit">
-          <a>Submit</a></button>
+          <a class="min-w-[125px] min-h-[50px]">Submit</a></button>
           <button type="submit"> <div class="send-icon">
          <img src="../assets/images/arrowmenu.svg"/>
         </div></button>
