@@ -12,7 +12,7 @@ export default {
     <body>
     <div class="header h-[40vw] md:h-[20vw] ">
         <div class="content ">
-            <h1>TikTak</h1>
+            <h1>National Geographic</h1>
         </div>
     </div>
     <div class="slider-container">
@@ -30,7 +30,7 @@ export default {
     <div class=" contact-info flex">
       <div class=" social-media item ">
       <h3 >Links</h3>
-      <span><a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://docs.google.com/document/d/1LV59d1Z6BJPO2WHa6Vjv9P_7ARGk5WR6wf9E8WhYeYo/edit">NUDGE MARKETING</a> - <a class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/proto/Iunr0lV7Njun7MFrXCLiAH/SAE301-Souhayl-Sedira?node-id=20-121&starting-point-node-id=20%3A121&scaling=scale-down-width">MOCKUP</a> - <a href="https://tiktaksouhayl.netlify.app/" class="clickable hover:text-[#2300FB] underline hover:text-[16px]">WEB SITE</a></span>
+      <span><a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/Charte%20Graphique%20Souhayl.pdf">PRINT CHARTER PDF</a> - <a class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/Charte%20Graphique%20Souhayl.indd">PRINT CHARTER INDESIGN</a> </span>
 
 
     
@@ -38,11 +38,7 @@ export default {
 
     </div>
     <h3 class="item">Creation process</h3>
-    <p class="text-[14px] md:text-[20px]">This project was carried out as part of an SAE (examination) which lasted three and a half days. 
-      The objective was to create a website allowing us to customise and order connected watches. So first I had to develop project management tools such as clockify or GANTT to allow me to organise my tasks with the limited time available. Then I had to develop a nudge marketing strategy. Then I started the design part with the creation of the customizable watch on illustrator then the website model on figma. And finally the development part with the data management and the creation of fonts and tables in sql on supabase, to finish with the integration in vuejs and talwindcss.
-
-The site allows you to customise your own watch with a range of colours provided. The user has to connect via google to be able to register his orders and can find them in a dedicated page. This site is hosted by netlify and I created its domain name on infomaniak.
-</p></div>
+    <p class="text-[14px] md:text-[20px]">This project was carried out as part of a second year examination in BUT MMI. The objective was to create a new logo for a proposed brand in order to then create a graphic charter for the print version. This project was one of my first projects where I had to create print and I was able to familiarise myself with the Adobe Indesign tool in order to master it perfectly.</p></div>
   </div>
 </body>
 <RouterLink to="/projects">
@@ -116,7 +112,7 @@ body{
   width: 100%;
 }
 .header .content{
-  font-size: 12vw;
+  font-size: 9vw;
   line-height: 90%;
   margin-left: 20px;
   font-weight: lighter;
@@ -171,17 +167,17 @@ body{
   background-size: cover;
 }
 .img1{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/NATION.svg);
 }
 .img2{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/NATIONALS.png);
 }
 .img3{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/NATION1.png);
 }
 .img4{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/NATION2.png);
 }
 .img5{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/NATION3.png);
 }</style>

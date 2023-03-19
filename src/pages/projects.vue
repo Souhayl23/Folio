@@ -18,88 +18,97 @@ export default {
 <section>
 <div>
 
-    <section class="project">
-      <div class="project-container">
-        <div><RouterLink to="/tiktak">
-          <nav class="menu">
-            <div class="menu__item">
-              <a class="menu__item-link clickable">/ TikTak</a>
-              <img class="menu__item-img" src="../assets/images/projet/TIKTAKMINISVG.svg" />
-              <div class="marquee">
-                <div class="marquee__inner ">
-                  <span>TikTak</span>
-                  <span>TikTak</span>
-                  <span>TikTak</span>
-                  <span>TikTak</span>
-                </div>
-              </div>
-            </div>
+  <section class="project">
+					<div class="project-container">
+						<div>
+							<nav class="menu">
+                <RouterLink to="/tiktak">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ TikTak</a>
+									<img class="menu__item-img" src="../assets/images/projet/TIKTAKMINISVG.svg" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>TikTak</span>
+											<span>TikTak</span>
+											<span>TikTak</span>
+											<span>TikTak</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								<div class="divider"></div>
 
-            <div class="divider"></div>
-            <div class="menu__item">
-              <a class="menu__item-link clickable">/ National Geographic.</a>
-              <img class="menu__item-img" src="../assets/images/projet/Nationmini.svg" />
-              <div class="marquee">
-                <div class="marquee__inner" aria-hidden="true">
-                  <span>National Geographic.</span>
-                  <span>National Geographic.</span>
-                  <span>National Geographic.</span>
-                  <span>National Geographic.</span>
-                </div>
-              </div>
-            </div>
-            <div class="divider"></div>
+                <RouterLink to="mmiscp"> 
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ MMISCP</a>
+									<img class="menu__item-img" src="../assets/images/projet/MMISCPMINI.svg" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>MMISCP</span>
+											<span>MMISCP</span>
+											<span>MMISCP</span>
+											<span>MMISCP</span>
+										</div>
+									</div>
+								</div></RouterLink>
 
-            <div class="menu__item">
-              <a class="menu__item-link clickable">/ Streamer Goal</a>
-              <img class="menu__item-img" src="../assets/images/projet/STREAMERMINISVG.svg" />
-              <div class="marquee">
-                <div class="marquee__inner">
-                  <span>Streamer Goal</span>
-                  <span>Streamer Goal</span>
-                  <span>Streamer Goal</span>
-                  <span>Streamer Goal</span>
-                </div>
-              </div>
-            </div>
+								<div class="divider"></div>
 
-            <div class="divider"></div>
+                <RouterLink to="/national">
+                <div class="menu__item">
+									<a class="menu__item-link clickable">/ National Geographic.</a>
+									<img class="menu__item-img" src="../assets/images/projet/Nationmini.svg" />
+									<div class="marquee">
+										<div class="marquee__inner" aria-hidden="true">
+											<span>National Geographic.</span>
+											<span>National Geographic.</span>
+											<span>National Geographic.</span>
+											<span>National Geographic.</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
 
-            <div class="menu__item">
-              <a class="menu__item-link clickable">/ Parole d'une femme</a>
-              <img class="menu__item-img" src="../assets/images/projet/PAROLEMINI.png" />
-              <div class="marquee">
-                <div class="marquee__inner">
-                  <span>Parole d'une femme</span>
-                  <span>Parole d'une femme</span>
-                  <span>Parole d'une femme</span>
-                  <span>Parole d'une femme</span>
-                </div>
-              </div>
-            </div>
+                <div class="divider"></div>
+                <RouterLink to="streamer"> 
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ Streamer Goal</a>
+									<img class="menu__item-img" src="../assets/images/projet/STREAMERMINISVG.svg" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>Streamer Goal</span>
+											<span>Streamer Goal</span>
+											<span>Streamer Goal</span>
+											<span>Streamer Goal</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
 
-            <div class="divider"></div>
+								<div class="divider"></div>
+                <RouterLink to="femme"> 
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ Parole d'une femme</a>
+									<img class="menu__item-img" src="../assets/images/projet/PAROLEMINI.png" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>Parole d'une femme</span>
+											<span>Parole d'une femme</span>
+											<span>Parole d'une femme</span>
+											<span>Parole d'une femme</span>
+										</div>
+									</div>
+								</div></RouterLink>
 
-            <div class="menu__item">
-              <a class="menu__item-link clickable">/ Sportgether</a>
-              <img class="menu__item-img" src="../assets/images/projet/SPORTSMINI.png" />
-              <div class="marquee">
-                <div class="marquee__inner">
-                  <span>Sportgether</span>
-                  <span>Sportgether</span>
-                  <span>Sportgether</span>
-                  <span>Sportgether</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="divider"></div>
+								<div class="divider"></div>
 
 
-          </nav></RouterLink>
-        </div>
-      </div>
-    </section>
+
+							</nav>
+						</div>
+					</div>
+
+				</section>
 
     <a
       href="#top"

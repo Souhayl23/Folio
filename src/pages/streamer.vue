@@ -30,7 +30,7 @@ export default {
     <div class=" contact-info flex">
       <div class=" social-media item ">
       <h3 >Links</h3>
-      <span><a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://docs.google.com/document/d/1LV59d1Z6BJPO2WHa6Vjv9P_7ARGk5WR6wf9E8WhYeYo/edit">NUDGE MARKETING</a> - <a class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/proto/Iunr0lV7Njun7MFrXCLiAH/SAE301-Souhayl-Sedira?node-id=20-121&starting-point-node-id=20%3A121&scaling=scale-down-width">MOCKUP</a> - <a href="https://tiktaksouhayl.netlify.app/" class="clickable hover:text-[#2300FB] underline hover:text-[16px]">WEB SITE</a></span>
+      <span><a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/file/1SFEVHQUVIvBLkyEB6vqAa/StreamGoal---maquette?node-id=0-1&t=OCL3CMG58LUU6iAd-0">GRAPHIC CHARTER</a> - <a class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/proto/1SFEVHQUVIvBLkyEB6vqAa/StreamGoal---maquette?node-id=92-75&scaling=scale-down-width&page-id=1%3A2&starting-point-node-id=92%3A75">MOCKUP</a> - <a href="https://www.figma.com/file/1SFEVHQUVIvBLkyEB6vqAa/StreamGoal---maquette?node-id=1033%3A6891&t=OCL3CMG58LUU6iAd-1" class="clickable hover:text-[#2300FB] underline hover:text-[16px]">SLIDE</a></span>
 
 
     
@@ -38,11 +38,9 @@ export default {
 
     </div>
     <h3 class="item">Creation process</h3>
-    <p class="text-[14px] md:text-[20px]">This project was carried out as part of an SAE (examination) which lasted three and a half days. 
-      The objective was to create a website allowing us to customise and order connected watches. So first I had to develop project management tools such as clockify or GANTT to allow me to organise my tasks with the limited time available. Then I had to develop a nudge marketing strategy. Then I started the design part with the creation of the customizable watch on illustrator then the website model on figma. And finally the development part with the data management and the creation of fonts and tables in sql on supabase, to finish with the integration in vuejs and talwindcss.
+    <p class="text-[14px] md:text-[20px]">This project was carried out as part of a group project lasting one semester during the year 2022. The objective was to create a website allowing us to acquire the necessary information and skills to become a real streamer. This project being a group project I will present the tasks I was able to perform as a designer.
 
-The site allows you to customise your own watch with a range of colours provided. The user has to connect via google to be able to register his orders and can find them in a dedicated page. This site is hosted by netlify and I created its domain name on infomaniak.
-</p></div>
+      I had to create the visual identity of the project (logo, colour harmony etc...) then the model itself declined in mobile and desktop version, as well as visuals for our social networks and posters. You will find below a link to the figma of the project which gathers all the elements I mentioned.</p></div>
   </div>
 </body>
 <RouterLink to="/projects">
@@ -132,7 +130,7 @@ body{
   width: 500%;
   overflow: hidden;
   left: 0;
-  animation: 25s animate infinite;
+  animation: 30s animate infinite;
 }
 @keyframes animate {
   0%{
@@ -171,17 +169,17 @@ body{
   background-size: cover;
 }
 .img1{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/STREAMERSVG.svg);
 }
 .img2{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/STREAMER2.svg);
 }
 .img3{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/Slide0.svg);
 }
 .img4{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/Slide1.svg);
 }
 .img5{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/Slide6.svg);
 }</style>

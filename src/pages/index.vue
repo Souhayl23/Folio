@@ -202,6 +202,22 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
               </RouterLink>
 								<div class="divider"></div>
 
+                <RouterLink to="mmiscp"> 
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ MMISCP</a>
+									<img class="menu__item-img" src="../assets/images/projet/MMISCPMINI.svg" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>MMISCP</span>
+											<span>MMISCP</span>
+											<span>MMISCP</span>
+											<span>MMISCP</span>
+										</div>
+									</div>
+								</div></RouterLink>
+
+								<div class="divider"></div>
+
                 <RouterLink to="/national">
                 <div class="menu__item">
 									<a class="menu__item-link clickable">/ National Geographic.</a>
@@ -234,7 +250,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
               </RouterLink>
 
 								<div class="divider"></div>
-
+                <RouterLink to="femme"> 
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ Parole d'une femme</a>
 									<img class="menu__item-img" src="../assets/images/projet/PAROLEMINI.png" />
@@ -246,24 +262,10 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 											<span>Parole d'une femme</span>
 										</div>
 									</div>
-								</div>
+								</div></RouterLink>
 
 								<div class="divider"></div>
 
-								<div class="menu__item">
-									<a class="menu__item-link clickable">/ Sportgether</a>
-									<img class="menu__item-img" src="../assets/images/projet/SPORTSMINI.png" />
-									<div class="marquee">
-										<div class="marquee__inner">
-											<span>Sportgether</span>
-											<span>Sportgether</span>
-											<span>Sportgether</span>
-											<span>Sportgether</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="divider"></div>
 
 
 							</nav>

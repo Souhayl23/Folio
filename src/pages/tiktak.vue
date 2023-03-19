@@ -132,7 +132,7 @@ body{
   width: 500%;
   overflow: hidden;
   left: 0;
-  animation: 25s animate infinite;
+  animation: 30s animate infinite;
 }
 @keyframes animate {
   0%{
@@ -174,14 +174,14 @@ body{
   background-image: url(../assets/images/projet/TIKTAKSVG.svg);
 }
 .img2{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAK2.png);
 }
 .img3{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAK3.png);
 }
 .img4{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAK4.png);
 }
 .img5{
-  background-image: url(../assets/images/projet/TIKTAKSVG.svg);
+  background-image: url(../assets/images/projet/TIKTAK5.png);
 }</style>
