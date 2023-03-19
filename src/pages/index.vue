@@ -302,12 +302,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 
 <style scoped>
-html, body {
-  width: 100%;
-  height: 100%;
-  color: #e0e0e0;
 
-}
 .get-in-touch{
     display: flex;
     align-items: center;
@@ -342,6 +337,12 @@ html, body {
     to{
         transform: rotate(360deg);
     }
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  color: #e0e0e0;
+
 }
 .marqueea {
   width: 100%;

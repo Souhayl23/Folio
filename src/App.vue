@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <span>
             <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="menu-item">
               <div class="menu-item-number">03</div>
-              <div class="menu-item-name">Projects</div>
+              <div class="menu-item-name">Project</div>
               <div class="menu-item-sub hidden sm:flex">Discover my work</div>
               <div class="menu-item-icon">
                 <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
+  
 
   <main>
     <!-- Affiche les pages -->

@@ -117,9 +117,60 @@ export default {
         
     </div>
 </section> 
+<section>
+  <div>
+        <div class="get-in-touch h-[100vw] md:h-[50vw] ">
+            <RouterLink to="contact" class="hover:text-[#2300FB] text-[#e0e0e0] z-10 hover:scale-110 md:text-[100px] text-[40px]"><h1 class=" underline">CONTACT ME</h1></RouterLink>
+            <p class="text-[15px] text-center md:text-[20px] mx-3  mt-[-100px] md:mt-[-150px]">If you have a project or a general question, do not hesitate to contact me</p>
+            <img class=" md:w-[40vw] w-[70vw] md:mt-[-10vw] mt-[-25vw] " src="../assets/images/✧.svg" alt="" />
+        </div>
+        </div>
+</section>
 </template>
 
 <style scoped>
+
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+    margin-top: 15vw;
+    flex-direction: column;
+}
+.get-in-touch h1 {
+    
+    font-weight: lighter;
+    font-family:'ArsenicaDemi';
+}
+.get-in-touch p{
+    font-family:'ClashRegu';
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #e0e0e0;
+}
+.get-in-touch img{
+  
+    opacity: .1;
+    animation: animate-rotate 30s linear infinite;
+
+}
+@keyframes animate-rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  color: #e0e0e0;
+
+}
 html, body {
   width: 100%;
   height: 100%;
