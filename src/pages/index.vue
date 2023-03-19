@@ -154,12 +154,17 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
     <a href="#sec-2" class="scroll hidden sm:flex sm:bottom-[20%] md:bottom-[10%] lg:bottom-[-1%] ">
       <div class="scroll-down  "></div>
     </a>
-
+    <div class="h-20 lg:h-1"></div>
+    <div class="marqueea mt-20 sm:mt-4">    <span>
+      about me  /about me / about me / about me / about me /
+      about me / about me / about me / about me / about me /
+      about me / about me / about me /
+    </span></div>
   <section id="about" >
   
     
 							    
-    <div class="upper-container  flex mt-56 sm:-mt-20 ">
+    <div class="upper-container  flex mt-56 sm:mt-20 ">
       <img src="../assets/images/Trois.svg" class="sm:flex  hidden md:ml-20 lg:ml-48 lg:-mr-44"/>
       <div>
       <span class="text-[#2300FB] px-7 lg:pl-[200px]" >(ABOUT ME)</span>
@@ -278,6 +283,15 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
             
         </div>
 </section> 
+<section>
+  <div>
+        <div class="get-in-touch h-[100vw] md:h-[50vw] ">
+            <RouterLink to="contact" class="hover:text-[#2300FB] text-[#e0e0e0] z-10 hover:scale-110 md:text-[100px] text-[40px]"><h1 class=" underline">CONTACT ME</h1></RouterLink>
+            <p class="text-[15px] text-center md:text-[20px] mx-3  mt-[-100px] md:mt-[-150px]">If you have a project or a general question, do not hesitate to contact me</p>
+            <img class=" md:w-[40vw] w-[70vw] md:mt-[-10vw] mt-[-25vw] " src="../assets/images/✧.svg" alt="" />
+        </div>
+        </div>
+</section>
 
   <a
       href="#top"
@@ -293,6 +307,70 @@ html, body {
   height: 100%;
   color: #e0e0e0;
 
+}
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+    margin-top: 15vw;
+    flex-direction: column;
+}
+.get-in-touch h1 {
+    
+    font-weight: lighter;
+    
+}
+.get-in-touch p{
+    
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #e0e0e0;
+}
+.get-in-touch img{
+  
+    opacity: .1;
+    animation: animate-rotate 30s linear infinite;
+
+}
+@keyframes animate-rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.marqueea {
+  width: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-top: 2em;
+}
+
+.marqueea span {
+  font-family: 'ArsenicaDemi';;
+  
+  color: #2300FB;
+  font-size: 6em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6vw;
+  padding-left: -10%;
+  animation: marqueea-animation 80s linear infinite;
+}
+
+@keyframes marqueea-animation {
+  0% {
+    transform:translate(-50%, 0);
+  
+  }
+  100% {
+    transform: translate(50, 0);
+  }
 }
 .marqueep {
   width: 100%;
