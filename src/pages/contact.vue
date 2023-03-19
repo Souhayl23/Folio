@@ -30,8 +30,8 @@ export default {
       level of possibilities <br />
     React out.</p>
     <div class=" social-media item">
-      <h3 >Social Media</h3>
-      <span>TWITTER - INSTAGRAM - GITHUB - TWITCH</span>
+      <h3 >Phone</h3>
+      <span>07 71 01 77 61</span>
     
     </div>
     <div class=" contact-info">
@@ -79,9 +79,8 @@ export default {
       level of possibilities <br />
     React out.</p>
     <div class=" social-media item2">
-      <h3 >Social Media</h3>
-      <span>TWITTER - INSTAGRAM - GITHUB - TWITCH</span>
-    
+      <h3 >Phone</h3>
+      <span>07 71 01 77 61</span>
     </div>
     
     <div class=" contact-info">
@@ -185,6 +184,7 @@ html, body {
 
 .wrapper2 {
   margin-left: -20px;
+  margin-right: 20px;
 }
 
 .contact-section h3 {
