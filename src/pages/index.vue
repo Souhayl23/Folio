@@ -169,7 +169,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
       my projects / my projects / my projects / my projects / my projects /
       my projects / my projects / my projects /
     </span></div>
-    <img src="../assets/images/New.svg" class="my-[4vw]" >
+    <img src="../assets/images/New.svg" class="my-[8vw] scale-150 md:scale-100" >
 <section>
  <div>
 
@@ -334,7 +334,7 @@ html, body {
 }
 .divider {
 	width: 100%;
-	height: 2px;
+	height: 0.2vw;
 	background: #e0e0e0;
 }
 

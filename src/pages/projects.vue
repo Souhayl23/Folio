@@ -38,7 +38,7 @@ export default {
 
     </div>
     <h3 class="item">Creation process</h3>
-    <p class="text-[13px] md:text-[20px]">This project was carried out as part of an SAE (examination) which lasted three and a half days. 
+    <p class="text-[14px] md:text-[20px]">This project was carried out as part of an SAE (examination) which lasted three and a half days. 
       The objective was to create a website allowing us to customise and order connected watches. So first I had to develop project management tools such as clockify or GANTT to allow me to organise my tasks with the limited time available. Then I had to develop a nudge marketing strategy. Then I started the design part with the creation of the customizable watch on illustrator then the website model on figma. And finally the development part with the data management and the creation of fonts and tables in sql on supabase, to finish with the integration in vuejs and talwindcss.
 
 The site allows you to customise your own watch with a range of colours provided. The user has to connect via google to be able to register his orders and can find them in a dedicated page. This site is hosted by netlify and I created its domain name on infomaniak.
@@ -66,7 +66,7 @@ body{
 }
 .col {
   width:100%;
-  padding: 1em 3em;
+  padding: 1em 3vw;
 }
 .contact-section span {
   text-transform: uppercase;
