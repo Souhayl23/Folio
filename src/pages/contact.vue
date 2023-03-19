@@ -118,7 +118,7 @@ export default {
       </div>
       <div class="row2 submit clickable">
         <button type="submit" >
-          <a>Submit</a></button>
+          <a class="text-[30px] md:text-[50px]">Submit</a></button>
           <button type="submit"> <div class="send-icon clickable">
          <img src="../assets/images/arrowmenu.svg"/>
         </div></button>
@@ -264,7 +264,7 @@ input {
   text-decoration: none;
   color: #2300FB;
   font-family: 'ArsenicaLi' ;
-  font-size: 40px;
+  
   font-weight: 600;
   text-transform: uppercase;
 }
