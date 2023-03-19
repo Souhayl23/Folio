@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </RouterLink>
 
     <!--Bouton pour afficher menu-->
-    <button class="clickable relative  w-fit" aria-controls="menu" :aria-expanded="menuOuvert"
+    <button class="clickable relative hover:scale-125 w-fit" aria-controls="menu" :aria-expanded="menuOuvert"
       @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']">
       <Menu />
 
@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <RouterLink class="clickable" to="/">
           <span>
           <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']" class="clickable menu-item">
-              <div class="menu-item-number">01</div>
-              <div class="menu-item-name">Home</div>
+              <div class="menu-item-number hover:scale-125">01</div>
+              <div class="menu-item-name hover:scale-125 ">Home</div>
               <div class="menu-item-sub hidden sm:flex">Briefly about the main thing</div>
               <div class="menu-item-icon">
                 <img src="./assets/images/arrowmenu.svg" class="hidden md:flex" alt="arrow" />

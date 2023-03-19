@@ -10,8 +10,8 @@ export default {
 
 <template>
     <body>
-    <div class="header">
-        <div class="content">
+    <div class="header h-[40vw] md:h-[20vw] ">
+        <div class="content ">
             TikTak
         </div>
     </div>
@@ -24,6 +24,26 @@ export default {
             <div class="img img5"></div>
         </div>
     </div>
+    <div class="contact-section col flex  ">
+    <div class="contact-details ">
+
+    <div class=" contact-info flex">
+      <div class=" social-media item ">
+      <h3 >Links</h3>
+      <span><a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://docs.google.com/document/d/1LV59d1Z6BJPO2WHa6Vjv9P_7ARGk5WR6wf9E8WhYeYo/edit">NUDGE MARKETING</a> - <a class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/proto/Iunr0lV7Njun7MFrXCLiAH/SAE301-Souhayl-Sedira?node-id=20-121&starting-point-node-id=20%3A121&scaling=scale-down-width">MOCKUP</a> - <a href="https://tiktaksouhayl.netlify.app/" class="clickable hover:text-[#2300FB] underline hover:text-[16px]">WEB SITE</a></span>
+
+
+    
+    </div>
+
+    </div>
+    <h3 class="item">Creation process</h3>
+    <p class="text-[13px] md:text-[20px]">This project was carried out as part of an SAE (examination) which lasted three and a half days. 
+      The objective was to create a website allowing us to customise and order connected watches. So first I had to develop project management tools such as clockify or GANTT to allow me to organise my tasks with the limited time available. Then I had to develop a nudge marketing strategy. Then I started the design part with the creation of the customizable watch on illustrator then the website model on figma. And finally the development part with the data management and the creation of fonts and tables in sql on supabase, to finish with the integration in vuejs and talwindcss.
+
+The site allows you to customise your own watch with a range of colours provided. The user has to connect via google to be able to register his orders and can find them in a dedicated page. This site is hosted by netlify and I created its domain name on infomaniak.
+</p></div>
+  </div>
 </body>
 </template>
 
@@ -37,10 +57,57 @@ body{
   background-color: #e0e0e0;
   color: #161616;
 }
+.contact-section h3 {
+  text-transform: uppercase;
+  color: #747474;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.col {
+  width:100%;
+  padding: 1em 3em;
+}
+.contact-section span {
+  text-transform: uppercase;
+}
+
+.contact-details p {
+  
+  
+  padding-top: 0,8em;
+  font-family: 'ClashRegu';
+  color: #161616;
+}
+.contact-details2 p {
+  font-size: 28px;
+  line-height: 40px;
+  padding-top: 0,8em;
+  font-family: 'ClashMed';
+  color: #161616;
+}
+.item {
+  padding: 4em 0 0 0;
+  font-family: 'ClashMed';
+  font-size: 15px;
+  color: #161616;
+}
+
+.item2 {
+  padding: 2em 0 0 0;
+  font-family: 'ClashRegu';
+  font-size: 15px;
+  color: #161616;
+}
+
+.contact-info {
+  display: flex;
+}
+
 .header{
   display: flex;
   align-items: flex-end;
-  height: 40vh;
+  
   width: 100%;
 }
 .header .content{
@@ -53,7 +120,7 @@ body{
   overflow: hidden;
 }
 .slider{
-  height: 70vh;
+  height: 60vw;
   position: relative;
   width: 500%;
   overflow: hidden;

@@ -179,10 +179,7 @@ html, body {
   width: 100%;
   padding: 1em 1em;
 }
-.col3 {
-  width: 100%;
-  padding: 3em 3em;
-}
+
 
 
 .wrapper2 {
@@ -216,7 +213,7 @@ html, body {
   color: white;
 }
 .item {
-  padding: 4em 0 0 0;
+  padding: 4em 1em 0 0;
   font-family: 'ClashRegu';
   font-size: 15px;
   color: white;
