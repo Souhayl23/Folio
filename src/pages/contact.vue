@@ -47,7 +47,7 @@ export default {
 
 
     </div>
-    <form class="contact-form col " accept-charset="UTF-8" action="https://www.formbackend.com/f/62dcb04e0cbd78a2" method="POST">
+    <form class="contact-form col " accept-charset="UTF-8" action="https://www.formbackend.com/f/ff488827414008ca" method="POST">
     
     <div class="wrapper">
       <div class="row">
@@ -101,7 +101,7 @@ export default {
     </div>
 
   </div>
-  <form class="contact-form col2 lg:hidden flex " accept-charset="UTF-8" action="https://www.formbackend.com/f/62dcb04e0cbd78a2" method="POST">
+  <form class="contact-form col2 lg:hidden flex " accept-charset="UTF-8" action="https://www.formbackend.com/f/ff488827414008ca" method="POST">
     
     <div class="wrapper2">
       <div class="row clickable">
