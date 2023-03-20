@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <style>
 
 ::-webkit-scrollbar{
-  display: none;
+  display: flex;
 }
 html,body {
   overflow-x:hidden;
