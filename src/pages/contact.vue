@@ -41,7 +41,7 @@ export default {
       </div>
       <div class=" address item">
       <h3 >location</h3>
-      <span>MONTBELIARD - FRANCE</span> 
+      <span>MONTBELIARD - FRANCe</span> 
     </div>
     </div>
 
