@@ -36,7 +36,7 @@ export default {
     </div>
     <div class=" contact-info">
       <div class="email item">
-        <h3 >EMAIL</h3>
+        <h3>Get in touch</h3>
         <span>souhayl.sedira23@gmail.com</span>
       </div>
       <div class=" address item">
