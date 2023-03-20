@@ -129,8 +129,8 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
     Creative Website
   </p>
 
-  <h3 class="text-[15px] sm:hidden ml-[12vw] mt-[600px] z-10 text-center text-[#FFF8EF]">souhayl.sedira23@gmail.com</h3>
-  <h3 class="text-[15px] hidden sm:flex md:hidden  z-10 mt-[-350px] text-center  text-[#FFF8EF]">souhayl.sedira23@gmail.com</h3>
+  <h3 class="text-[15px] sm:hidden ml-[12vw] mt-[600px] z-10 text-center text-[#FFF8EF]"><span><a href="mailto:souhayl.sedira23@gmail.com">souhayl.sedira23@gmail.com</a></span></h3>
+ <span><a class="text-[15px] w-5 hidden sm:flex md:hidden  z-10 mt-[-350px] text-center  text-[#FFF8EF]" href="mailto:souhayl.sedira23@gmail.com">souhayl.sedira23@gmail.com</a></span>
 
   <img
   

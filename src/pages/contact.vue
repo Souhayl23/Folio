@@ -26,7 +26,7 @@ export default {
   </div>
   <div class="contact-section col lg:flex hidden ">
     <div class="contact-details ">
-      <p>Let's take the next step together.<br />
+      <p>Let's take the next step.<br />
       Contact me and <br />
     Let's work.</p>
     <div class=" social-media item">
@@ -37,7 +37,7 @@ export default {
     <div class=" contact-info">
       <div class="email item">
         <h3>Get in touch</h3>
-        <span>souhayl.sedira23@gmail.com</span>
+        <span><a href="mailto:souhayl.sedira23@gmail.com">souhayl.sedira23@gmail.com</a></span>
       </div>
       <div class=" address item">
       <h3 >location</h3>
@@ -75,7 +75,7 @@ export default {
   </div>
   <div class="contact-section lg:hidden flex col2  ">
     <div class="contact-details2 lg:hidden ">
-      <p>Let's take the next step together.<br />
+      <p>Let's take the next step.<br />
       Contact me and <br />
     Let's work.</p>
     <div class=" social-media item2">
