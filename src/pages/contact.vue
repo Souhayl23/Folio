@@ -26,9 +26,9 @@ export default {
   </div>
   <div class="contact-section col lg:flex hidden ">
     <div class="contact-details ">
-      <p>Let's unlock together the next <br />
-      level of possibilities <br />
-    React out.</p>
+      <p>Let's take the next step together.<br />
+      Contact me and <br />
+    Let's work.</p>
     <div class=" social-media item">
       <h3 >Phone</h3>
       <span>07 71 01 77 61</span>
