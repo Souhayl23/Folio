@@ -149,10 +149,20 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
     
    </section> 
    <a href="#sec-2" class="scroll  sm:hidden">
-      <div class="scroll-down  "></div>
+      <div class="scroll-down  ">
+
+        <div class=" social-media ml-[25vw] mr-[10vw] font-['ClashMed']  text-white">
+      <span><a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/CV-SOUHAYL_SEDIRA.pdf">DOWNOALD CV FR ⇩</a> - <a class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/CV-SOUHAYL_SEDIRA-ANGLAIS.pdf"> DOWNOALD CV ENG ⇩</a> </span>
+
+
+    
+    </div>
+      </div>
     </a>
     <a href="#sec-2" class="scroll hidden sm:flex sm:bottom-[20%] md:bottom-[10%] lg:bottom-[-1%] ">
-      <div class="scroll-down  "></div>
+      <div class="scroll-down  ">
+        
+      </div>
     </a>
     <div class="h-20 lg:h-1"></div>
     <div class="marqueea mt-20 sm:mt-4">    <span>
@@ -163,7 +173,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
   <section id="about" >
   
     
-							    
+	    
     <div class="upper-container  flex mt-56 sm:mt-20 ">
       <img src="../assets/images/Trois.svg" class="sm:flex  hidden md:ml-20 lg:ml-48 lg:-mr-44"/>
       <div>
@@ -289,6 +299,12 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
             <RouterLink to="contact" class="hover:text-[#2300FB] text-[#e0e0e0] z-10 hover:scale-110 md:text-[100px] text-[40px]"><h1 class=" underline">CONTACT ME</h1></RouterLink>
             <p class="text-[15px] text-center md:text-[20px] mx-3  mt-[-100px] md:mt-[-150px]">If you have a project or a general question, do not hesitate to contact me</p>
             <img class=" md:w-[40vw] w-[70vw] md:mt-[-10vw] mt-[-25vw] " src="../assets/images/✧.svg" alt="" />
+            <div class=" social-media  font-['ClashMed']  text-white">
+      <span><a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/CV-SOUHAYL_SEDIRA.pdf">DOWNOALD CV FR ⇩</a> - <a class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/CV-SOUHAYL_SEDIRA-ANGLAIS.pdf"> DOWNOALD CV ENG ⇩</a> </span>
+
+
+    
+    </div>
         </div>
         </div>
 </section>
