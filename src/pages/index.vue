@@ -216,6 +216,21 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 								</div>
               </RouterLink>
 								<div class="divider"></div>
+                <RouterLink to="/mascene">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ Ma scène nationale</a>
+									<img class="menu__item-img" src="../assets/images/projet/mascenemini.png" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>Ma scène nationale</span>
+											<span>Ma scène nationale</span>
+											<span>Ma scène nationale</span>
+											<span>Ma scène nationale</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								<div class="divider"></div>
 
                 <RouterLink to="mmiscp"> 
 								<div class="menu__item">

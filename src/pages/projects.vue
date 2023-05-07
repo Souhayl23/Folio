@@ -37,6 +37,21 @@ export default {
 								</div>
               </RouterLink>
 								<div class="divider"></div>
+                <RouterLink to="/mascene">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ Ma scène nationale</a>
+									<img class="menu__item-img" src="../assets/images/projet/mascenemini.png" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>Ma scène nationale</span>
+											<span>Ma scène nationale</span>
+											<span>Ma scène nationale</span>
+											<span>Ma scène nationale</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								<div class="divider"></div>
 
                 <RouterLink to="mmiscp"> 
 								<div class="menu__item">
@@ -109,7 +124,6 @@ export default {
 					</div>
 
 				</section>
-
     <a
       href="#top"
       class="fixed bottom-20 right-[5vw] z-10 flex h-16 w-20 items-center justify-center bg-[#2300FB] text-xl font-normal text-white opacity-50 transition-all hover:h-16 hover:w-24 hover:opacity-100"
