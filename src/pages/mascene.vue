@@ -31,12 +31,12 @@ export default {
       <div class=" social-media item ">
       <h3 >Links</h3>
       <span>
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="../assets/images/projet/MaSCENE.png">BOOK'S MOCKUP</a> </span>
-        <span>  <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/RecommandationSouhaylSedira.pdf">STRATEGIC RECOMMENDATION</a> </span>
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/MaSCENE.pdf">BOOK'S MOCKUP</a>-
+       <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/RecommandationSouhaylSedira.pdf">STRATEGIC RECOMMANDATION</a>-
 
-        <span>  <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/Personna.pdf">PERSONNA</a> </span>
+      <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/Personna.pdf">PERSONNA</a>-
 
-        <span> <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/INDESIGN_mascne.pdf">PRINT BOOK INDESIGN</a> </span>
+       <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/INDESIGN_mascne.pdf">PRINT INDESIGN</a> </span>
 
 
     
