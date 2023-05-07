@@ -29,6 +29,7 @@ export default {
 
     <div class=" contact-info flex">
       <div class=" social-media item ">
+        
       <h3 >Links</h3>
       <span>
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/MaSCENE.pdf">BOOK'S MOCKUP</a>-
