@@ -4,4 +4,5 @@
 <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#FAEBD7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
+
 </template>
