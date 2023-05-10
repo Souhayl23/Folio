@@ -113,15 +113,8 @@ html, body {
   color: #e0e0e0;
 
 }
-*{
-  margin: 0;
-  padding: 0;
-}
-body{
-  font-family: 'ArsenicaDemi';
-  background-color: #e0e0e0;
-  color: #e0e0e0;
-}
+
+
 .contact-section h3 {
   text-transform: uppercase;
   color: #747474;
@@ -176,7 +169,7 @@ body{
   width: 100%;
 }
 .header .content{
-  font-size: 9vw;
+  font-size: 12vw;
   line-height: 90%;
   margin-left: 20px;
   font-weight: lighter;
@@ -192,7 +185,7 @@ body{
   width: 500%;
   overflow: hidden;
   left: 0;
-  animation: 25s animate infinite;
+  animation: 30s animate infinite;
 }
 @keyframes animate {
   0%{
