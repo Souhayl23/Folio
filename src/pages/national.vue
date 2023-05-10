@@ -46,6 +46,7 @@ export default {
       href="#top"
       class="fixed bottom-20 right-[5vw] z-20 flex h-16 w-20 items-center justify-center bg-[#2300FB] text-xl font-['ArsenicaLi'] text-white opacity-50 transition-all hover:h-16 hover:w-24 hover:opacity-100"
       ><h2> Back ↞</h2></a></RouterLink>
+      
 <section>
   <div>
         <div class="get-in-touch h-[100vw] md:h-[50vw] ">
