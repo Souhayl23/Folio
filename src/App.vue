@@ -170,6 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ::-webkit-scrollbar{
   display: flex;
+
 }
 html,body {
   overflow-x:hidden;
