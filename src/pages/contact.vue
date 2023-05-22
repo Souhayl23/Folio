@@ -85,6 +85,7 @@ export default {
     
     <div class=" contact-info">
       <div class="email item2">
+        
         <h3 >Phone</h3>
       <span>07 71 01 77 61</span>
 
