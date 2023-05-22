@@ -80,7 +80,7 @@ export default {
     Let's work.</p>
     <div class=" social-media item2">
       <h3 >Get in touch</h3>
-        <span>souhayl.sedira23@gmail.com</span>
+      <span><a href="mailto:souhayl.sedira23@gmail.com">souhayl.sedira23@gmail.com</a></span>
     </div>
     
     <div class=" contact-info">
