@@ -201,6 +201,21 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 					<div class="project-container">
 						<div>
 							<nav class="menu">
+                <RouterLink to="/rovea">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ rovea</a>
+									<img class="menu__item-img" src="../assets/images/projet/roveamini.svg" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>Rovea</span>
+											<span>Rovea</span>
+											<span>Rovea</span>
+											<span>Rovea</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								<div class="divider"></div>
                 <RouterLink to="/tiktak">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ TikTak</a>
