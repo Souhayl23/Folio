@@ -32,7 +32,7 @@ export default {
         
       <h3 >Links</h3>
       <span>
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="roveaskin.fr">WEBSITE</a>
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="roveaskin.fr">WEBSITE</a> - 
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.tiktok.com/@roveaskin">TIKTOK</a>
     </span>
 
@@ -43,8 +43,7 @@ export default {
     </div>
     <h3 class="item">Creation process</h3>
     <p class="text-[14px] md:text-[20px]">Rovea is a project I set up alongside my studies by opening my own business. It's an e-commerce store selling Korean cosmetics create on Shopify. This project enabled me to acquire many skills in different areas: creating a visual identity with strong branding to stay in the minds of my customers, developing nudge marketing strategies to have a store that converts as much as possible, learning copywriting to create striking product sheets and e-mails that convert, respecting the legal aspects of setting up a business and an online store, optimizing the SEO of my website so as to have a free and optimized source of traffic, but also paid sources of acquisition such as Tiktok ADS, Meta ADS or Google ADS, and above all meeting the expectations of my target customer by having defined a precise and optimized persona. Today, Rovea is a great success on my scale, generating an average of 2,000 euros a day, and I'm constantly learning about entrepreneurship and e-commerce store creation. It's a real challenge that makes me evolve every day, and I'm very proud of it.
-
-Translated with www.DeepL.com/Translator (free version)</p></div>
+</p></div>
   </div>
 </body>
 <RouterLink to="/projects">
