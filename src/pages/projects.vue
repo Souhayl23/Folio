@@ -18,10 +18,60 @@ export default {
 <section>
 <div>
 
-  <section class="project">
+<section>
+ <div>
+
+				<section class="project">
 					<div class="project-container">
 						<div>
 							<nav class="menu">
+                <RouterLink to="/rovea">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ rovea</a>
+									<img class="menu__item-img" src="../assets/images/projet/roveamini.svg" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>Rovea</span>
+											<span>Rovea</span>
+											<span>Rovea</span>
+											<span>Rovea</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								
+								<div class="divider"></div>
+								                <RouterLink to="/logo">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ Logo UFC</a>
+									<img class="menu__item-img" src="../assets/images/projet/logomini.svg" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>Logo uFC</span>
+											<span>Logo uFC</span>
+											<span>Logo uFC</span>
+											<span>Logo uFC</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								
+								<div class="divider"></div>
+								                <RouterLink to="/600">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/Anniversaire uFC</a>
+									<img class="menu__item-img" src="../assets/images/projet/600mini.png" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>Anniversaire uFC</span>
+											<span>Anniversaire uFC</span>
+											<span>Anniversaire uFC</span>
+											<span>Anniversaire uFC</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								<div class="divider"></div>
                 <RouterLink to="/tiktak">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ TikTak</a>
@@ -53,21 +103,6 @@ export default {
               </RouterLink>
 								<div class="divider"></div>
 
-                <RouterLink to="mmiscp"> 
-								<div class="menu__item">
-									<a class="menu__item-link clickable">/ MMISCP</a>
-									<img class="menu__item-img" src="../assets/images/projet/MMISCPMINI.svg" />
-									<div class="marquee">
-										<div class="marquee__inner">
-											<span>MMISCP</span>
-											<span>MMISCP</span>
-											<span>MMISCP</span>
-											<span>MMISCP</span>
-										</div>
-									</div>
-								</div></RouterLink>
-
-								<div class="divider"></div>
 
                 <RouterLink to="/national">
                 <div class="menu__item">
@@ -85,40 +120,6 @@ export default {
               </RouterLink>
 
                 <div class="divider"></div>
-                <RouterLink to="streamer"> 
-								<div class="menu__item">
-									<a class="menu__item-link clickable">/ Streamer Goal</a>
-									<img class="menu__item-img" src="../assets/images/projet/STREAMERMINISVG.svg" />
-									<div class="marquee">
-										<div class="marquee__inner">
-											<span>Streamer Goal</span>
-											<span>Streamer Goal</span>
-											<span>Streamer Goal</span>
-											<span>Streamer Goal</span>
-										</div>
-									</div>
-								</div>
-              </RouterLink>
-
-								<div class="divider"></div>
-                <RouterLink to="femme"> 
-								<div class="menu__item">
-									<a class="menu__item-link clickable">/ Parole d'une femme</a>
-									<img class="menu__item-img" src="../assets/images/projet/PAROLEMINI.png" />
-									<div class="marquee">
-										<div class="marquee__inner">
-											<span>Parole d'une femme</span>
-											<span>Parole d'une femme</span>
-											<span>Parole d'une femme</span>
-											<span>Parole d'une femme</span>
-										</div>
-									</div>
-								</div></RouterLink>
-
-								<div class="divider"></div>
-                
-
-
 
 							</nav>
 						</div>
