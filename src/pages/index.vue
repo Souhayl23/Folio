@@ -216,6 +216,21 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 								</div>
               </RouterLink>
 								<div class="divider"></div>
+								                <RouterLink to="/600">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ 600 ans</a>
+									<img class="menu__item-img" src="../assets/images/projet/600min.png" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>600 uFC</span>
+											<span>600 uFC</span>
+											<span>600 uFC</span>
+											<span>600 uFC</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								<div class="divider"></div>
                 <RouterLink to="/tiktak">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ TikTak</a>
