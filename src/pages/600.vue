@@ -33,7 +33,7 @@ export default {
       <h3 >Links</h3>
       <span>
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/proto/OvsV44itT9d5N67D1Q81y7/600-ans-uFC?page-id=171%3A1176&type=design&node-id=877-3349&viewport=169%2C4575%2C0.15&t=ooP6ky7jUabu2Fcn-1&scaling=contain&starting-point-node-id=877%3A3349&show-proto-sidebar=1&mode=design">MOCKUP</a> - 
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://600ans.univ-fcomte.fr/">WEBSITE</a>
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://600ans.univ-fcomte.fr/">WEBSITE</a> - 
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/rapport-stage.pdf">INTERNSHIP REPORT</a>
 
     </span>
