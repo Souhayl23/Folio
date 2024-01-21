@@ -15,8 +15,7 @@ export default {
   my projects / my projects / my projects /
 </span></div>
 <img src="../assets/images/New.svg" class="my-[8vw] scale-150 md:scale-100" >
-<section>
-<div>
+
 
 <section>
  <div>
