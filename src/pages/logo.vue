@@ -12,7 +12,7 @@ export default {
     <body>
     <div class="header h-[40vw] md:h-[20vw] ">
         <div class="content ">
-            <h1>Rovea</h1>
+            <h1>Logo uFC</h1>
         </div>
     </div>
     <div class="slider-container">
@@ -32,9 +32,11 @@ export default {
         
       <h3 >Links</h3>
       <span>
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="roveaskin.fr">WEBSITE</a> - 
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.tiktok.com/@roveaskin">TIKTOK</a>
-    </span>
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://zeroheight.com/302b51060/p/086b18-design-system---ufc">DESIGN SYSTEM ZEROHEIGHT</a> - 
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/file/KhfqobKNngM9y2cAhXDOzp/Design-system---Souhayl?type=design&node-id=1%3A5&mode=design&t=1bUJvEaYYceSfcuA-1">DESIGN SYSTEM AND MOCKUP FIGMA</a>
+      <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.behance.net/gallery/186512921/Identit-Visuelle-de-luFC">BEHANCE</a> - 
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="roveaskin.fr">GRAPHIC CHARTER</a> - 
+      </span>
 
 
     
@@ -42,7 +44,7 @@ export default {
 
     </div>
     <h3 class="item">Creation process</h3>
-    <p class="text-[14px] md:text-[20px]">Rovea is a project I set up alongside my studies by opening my own business. It's an e-commerce store selling Korean cosmetics create on Shopify. This project enabled me to acquire many skills in different areas: creating a visual identity with strong branding to stay in the minds of my customers, developing nudge marketing strategies to have a store that converts as much as possible, learning copywriting to create striking product sheets and e-mails that convert, respecting the legal aspects of setting up a business and an online store, optimizing the SEO of my website so as to have a free and optimized source of traffic, but also paid sources of acquisition such as Tiktok ADS, Meta ADS or Google ADS, and above all meeting the expectations of my target customer by having defined a precise and optimized persona. Today, Rovea is a great success on my scale, generating an average of 2,000 euros a day, and I'm constantly learning about entrepreneurship and e-commerce store creation. It's a real challenge that makes me evolve every day, and I'm very proud of it.
+    <p class="text-[14px] md:text-[20px]">In this project I was able to create a polymorphic visual identity for the logo of the University of Franche-Comté as part of an SAE.This project involved a great deal of experience in creating a polymorphic visual identity and, above all, a professional, structured design system ready for use by the developer. As a result, I was able to produce a number of renderings: a graphic charter explaining the visual identity, a design system and a mock-up on figma for the designers, a design system on zeroheight for the developers and a behance for the communication department. 
 </p></div>
   </div>
 </body>
@@ -222,17 +224,17 @@ html, body {
   background-size: cover;
 }
 .img1{
-  background-image: url(../assets/images/projet/rovea1.svg);
+  background-image: url(../assets/images/projet/logo1.svg);
 }
 .img2{
-  background-image: url(../assets/images/projet/rovea2.png);
+  background-image: url(../assets/images/projet/logo2.png);
 }
 .img3{
-  background-image: url(../assets/images/projet/rovea3.png);
+  background-image: url(../assets/images/projet/logo3.png);
 }
 .img4{
-  background-image: url(../assets/images/projet/ROVEA4.png);
+  background-image: url(../assets/images/projet/logo4.png);
 }
 .img5{
-  background-image: url(../assets/images/projet/rovea5.svg);
+  background-image: url(../assets/images/projet/logo5.svg);
 }</style>
