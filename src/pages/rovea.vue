@@ -32,7 +32,7 @@ export default {
         
       <h3 >Links</h3>
       <span>
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="roveaskin.fr">WEBSITE</a> - 
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.roveaskin.fr">WEBSITE</a> - 
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.tiktok.com/@roveaskin">TIKTOK</a>
     </span>
 
