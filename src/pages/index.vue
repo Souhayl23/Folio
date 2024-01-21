@@ -233,7 +233,7 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 								                <RouterLink to="/600">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/ 600  uFC</a>
-									<img class="menu__item-img" src="../assets/images/projet/600min.png" />
+									<img class="menu__item-img" src="../assets/images/projet/600mini.png" />
 									<div class="marquee">
 										<div class="marquee__inner ">
 											<span>600 uFC</span>
