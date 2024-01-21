@@ -12,7 +12,7 @@ export default {
     <body>
     <div class="header h-[40vw] md:h-[20vw] ">
         <div class="content ">
-            <h1>Rovea</h1>
+            <h1>600 ans uFC</h1>
         </div>
     </div>
     <div class="slider-container">
@@ -32,8 +32,8 @@ export default {
         
       <h3 >Links</h3>
       <span>
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="roveaskin.fr">WEBSITE</a> - 
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.tiktok.com/@roveaskin">TIKTOK</a>
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/proto/OvsV44itT9d5N67D1Q81y7/600-ans-uFC?page-id=171%3A1176&type=design&node-id=877-3349&viewport=169%2C4575%2C0.15&t=ooP6ky7jUabu2Fcn-1&scaling=contain&starting-point-node-id=877%3A3349&show-proto-sidebar=1&mode=design">MOCKUP</a> - 
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://600ans.univ-fcomte.fr/">WEBSITE</a>
     </span>
 
 
@@ -42,7 +42,7 @@ export default {
 
     </div>
     <h3 class="item">Creation process</h3>
-    <p class="text-[14px] md:text-[20px]">Rovea is a project I set up alongside my studies by opening my own business. It's an e-commerce store selling Korean cosmetics create on Shopify. This project enabled me to acquire many skills in different areas: creating a visual identity with strong branding to stay in the minds of my customers, developing nudge marketing strategies to have a store that converts as much as possible, learning copywriting to create striking product sheets and e-mails that convert, respecting the legal aspects of setting up a business and an online store, optimizing the SEO of my website so as to have a free and optimized source of traffic, but also paid sources of acquisition such as Tiktok ADS, Meta ADS or Google ADS, and above all meeting the expectations of my target customer by having defined a precise and optimized persona. Today, Rovea is a great success on my scale, generating an average of 2,000 euros a day, and I'm constantly learning about entrepreneurship and e-commerce store creation. It's a real challenge that makes me evolve every day, and I'm very proud of it.
+    <p class="text-[14px] md:text-[20px]">I was able to carry out this project during my 10-week internship at the end of my 2nd year at BUT, then once the internship was over the university hired me on a fixed-term contract during the summer vacations to finalize the project. The aim was to create a website to celebrate the 600th anniversary of the University of Franche-Comté. So I was able to take care of the creative part from start to finish. It was the first time I'd managed such a big project, and I gained a lot of experience and skills from it. For the first few weeks, I was in direct contact with the customer, imagining with him the tree structure and the structure of this project with its enormous amount of information: organization was the most important quality to have. Then, once I'd got these ideas out of the customer's head, I was able to start working on the interface and graphics part of the mock-up: my aim was to have a fully prototypable and interactive mock-up, so that no detail would be overlooked and so that I could project myself to the max. In this way, I was able to learn how to develop a professional, interactive system design. Then, after my internship, I was able to create the site on Wordpress. This project introduced me to the world of work, teamwork and the profession of Web Designer.
 </p></div>
   </div>
 </body>
@@ -222,17 +222,15 @@ html, body {
   background-size: cover;
 }
 .img1{
-  background-image: url(../assets/images/projet/rovea1.svg);
+  background-image: url(../assets/images/projet/6001.svg);
 }
 .img2{
-  background-image: url(../assets/images/projet/rovea2.png);
+  background-image: url(../assets/images/projet/6002.png);
 }
 .img3{
-  background-image: url(../assets/images/projet/rovea3.png);
+  background-image: url(../assets/images/projet/6003.png);
 }
 .img4{
-  background-image: url(../assets/images/projet/ROVEA4.png);
+  background-image: url(../assets/images/projet/6004.png);
 }
-.img5{
-  background-image: url(../assets/images/projet/rovea5.svg);
-}</style>
+</style>
