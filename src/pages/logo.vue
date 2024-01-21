@@ -36,7 +36,7 @@ export default {
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://zeroheight.com/302b51060/p/086b18-design-system---ufc">DESIGN SYSTEM ZEROHEIGHT</a> - 
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/file/KhfqobKNngM9y2cAhXDOzp/Design-system---Souhayl?type=design&node-id=1%3A5&mode=design&t=1bUJvEaYYceSfcuA-1">DESIGN SYSTEM AND MOCKUP FIGMA</a> - 
       <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.behance.net/gallery/186512921/Identit-Visuelle-de-luFC">BEHANCE</a> - 
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="roveaskin.fr">GRAPHIC CHARTER</a> - 
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://stupendous-tiramisu-ed55ba.netlify.app/images/Charte-uFC.pdf">GRAPHIC CHARTER</a> - 
       </span>
 
 
