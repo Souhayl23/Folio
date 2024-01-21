@@ -215,31 +215,18 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
 									</div>
 								</div>
               </RouterLink>
-								                <RouterLink to="/rovea">
-								<div class="menu__item">
-									<a class="menu__item-link clickable">/ rovea</a>
-									<img class="menu__item-img" src="../assets/images/projet/roveamini.svg" />
-									<div class="marquee">
-										<div class="marquee__inner ">
-											<span>Rovea</span>
-											<span>Rovea</span>
-											<span>Rovea</span>
-											<span>Rovea</span>
-										</div>
-									</div>
-								</div>
-              </RouterLink>
+								
 								<div class="divider"></div>
 								                <RouterLink to="/600">
 								<div class="menu__item">
-									<a class="menu__item-link clickable">/ 600  uFC</a>
+									<a class="menu__item-link clickable">/Anniversaire uFC</a>
 									<img class="menu__item-img" src="../assets/images/projet/600mini.png" />
 									<div class="marquee">
 										<div class="marquee__inner ">
-											<span>600 uFC</span>
-											<span>600 uFC</span>
-											<span>600 uFC</span>
-											<span>600 uFC</span>
+											<span>Anniversaire uFC</span>
+											<span>Anniversaire uFC</span>
+											<span>Anniversaire uFC</span>
+											<span>Anniversaire uFC</span>
 										</div>
 									</div>
 								</div>
