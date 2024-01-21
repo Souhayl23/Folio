@@ -217,6 +217,22 @@ tl.fromTo(".big-text2", { opacity: 0 }, { opacity: 1, duration: 1 });
               </RouterLink>
 								
 								<div class="divider"></div>
+								                <RouterLink to="/logo">
+								<div class="menu__item">
+									<a class="menu__item-link clickable">/ Logo UFC</a>
+									<img class="menu__item-img" src="../assets/images/projet/logomini.svg" />
+									<div class="marquee">
+										<div class="marquee__inner ">
+											<span>Logo uFC</span>
+											<span>Logo uFC</span>
+											<span>Logo uFC</span>
+											<span>Logo uFC</span>
+										</div>
+									</div>
+								</div>
+              </RouterLink>
+								
+								<div class="divider"></div>
 								                <RouterLink to="/600">
 								<div class="menu__item">
 									<a class="menu__item-link clickable">/Anniversaire uFC</a>
