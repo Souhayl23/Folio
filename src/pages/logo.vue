@@ -21,7 +21,7 @@ export default {
             <div class="img img2"></div>
             <div class="img img3"></div>
             <div class="img img4"></div>
-            <div class="img img5"></div>
+          
         </div>
     </div>
     <div class="contact-section col flex  ">
@@ -224,17 +224,16 @@ html, body {
   background-size: cover;
 }
 .img1{
-  background-image: url(../assets/images/projet/logo1.svg);
+  background-image: url(../assets/images/projet/logo1.png);
 }
 .img2{
-  background-image: url(../assets/images/projet/logo2.png);
+  background-image: url(../assets/images/projet/logo21.png);
 }
 .img3{
   background-image: url(../assets/images/projet/logo3.png);
 }
 .img4{
-  background-image: url(../assets/images/projet/logo4.png);
+  background-image: url(../assets/images/projet/logo5.png);
 }
-.img5{
-  background-image: url(../assets/images/projet/logo5.svg);
-}</style>
+
+</style>
