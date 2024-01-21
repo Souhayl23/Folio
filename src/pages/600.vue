@@ -12,7 +12,7 @@ export default {
     <body>
     <div class="header h-[40vw] md:h-[20vw] ">
         <div class="content ">
-            <h1>600 ans uFC</h1>
+            <h1>Anniversaire uFC</h1>
         </div>
     </div>
     <div class="slider-container">
