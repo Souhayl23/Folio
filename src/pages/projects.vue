@@ -125,7 +125,7 @@ export default {
 						</div>
 					</div>
 
-				</section>
+				</section> </div>
     <a
       href="#top"
       class="fixed bottom-20 right-[5vw] z-10 flex h-16 w-20 items-center justify-center bg-[#2300FB] text-xl font-normal text-white opacity-50 transition-all hover:h-16 hover:w-24 hover:opacity-100"
