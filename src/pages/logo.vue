@@ -21,6 +21,7 @@ export default {
             <div class="img img2"></div>
             <div class="img img3"></div>
             <div class="img img4"></div>
+          <div class="img img1"></div>
           
         </div>
     </div>
@@ -33,7 +34,7 @@ export default {
       <h3 >Links</h3>
       <span>
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://zeroheight.com/302b51060/p/086b18-design-system---ufc">DESIGN SYSTEM ZEROHEIGHT</a> - 
-        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/file/KhfqobKNngM9y2cAhXDOzp/Design-system---Souhayl?type=design&node-id=1%3A5&mode=design&t=1bUJvEaYYceSfcuA-1">DESIGN SYSTEM AND MOCKUP FIGMA</a>
+        <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.figma.com/file/KhfqobKNngM9y2cAhXDOzp/Design-system---Souhayl?type=design&node-id=1%3A5&mode=design&t=1bUJvEaYYceSfcuA-1">DESIGN SYSTEM AND MOCKUP FIGMA</a> - 
       <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="https://www.behance.net/gallery/186512921/Identit-Visuelle-de-luFC">BEHANCE</a> - 
         <a  class="clickable hover:text-[#2300FB] underline hover:text-[16px]" href="roveaskin.fr">GRAPHIC CHARTER</a> - 
       </span>
